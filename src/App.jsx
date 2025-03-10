@@ -1,6 +1,12 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedinIn,
+  FaGithub,
+} from "react-icons/fa";
 import mokete from "./assets/mokete.jpg";
 
 const App = () => {
@@ -21,7 +27,9 @@ const App = () => {
     navLinks.forEach((link) => link.addEventListener("click", handleScroll));
 
     return () => {
-      navLinks.forEach((link) => link.removeEventListener("click", handleScroll));
+      navLinks.forEach((link) =>
+        link.removeEventListener("click", handleScroll)
+      );
     };
   }, []);
 
@@ -33,55 +41,103 @@ const App = () => {
           Download Resume
         </button>
         <div className="md:hidden">
-          <button onClick={() => setIsOpen(!isOpen)} className="focus:outline-none">
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="focus:outline-none"
+          >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
-        <ul className={`md:flex flex-col md:flex-row md:space-x-6 absolute md:relative top-16 left-0 w-full md:w-auto md:top-0 bg-gray-900 md:bg-transparent p-4 md:p-0 ${isOpen ? "block" : "hidden"}`}>
-          <li className="text-left"><a href="#home" className="block py-2 px-4 hover:underline">Home</a></li>
-          <li className="text-left"><a href="#about" className="block py-2 px-4 hover:underline">About</a></li>
-          <li className="text-left"><a href="#projects" className="block py-2 px-4 hover:underline">Projects</a></li>
-          <li className="text-left"><a href="#contact" className="block py-2 px-4 hover:underline">Contact</a></li>
+        <ul
+          className={`md:flex flex-col md:flex-row md:space-x-6 absolute md:relative top-16 left-0 w-full md:w-auto md:top-0 bg-gray-900 md:bg-transparent p-4 md:p-0 ${
+            isOpen ? "block" : "hidden"
+          }`}
+        >
+          <li className="text-left">
+            <a href="#home" className="block py-2 px-4 hover:underline">
+              Home
+            </a>
+          </li>
+          <li className="text-left">
+            <a href="#about" className="block py-2 px-4 hover:underline">
+              About
+            </a>
+          </li>
+          <li className="text-left">
+            <a href="#projects" className="block py-2 px-4 hover:underline">
+              Projects
+            </a>
+          </li>
+          <li className="text-left">
+            <a href="#contact" className="block py-2 px-4 hover:underline">
+              Contact
+            </a>
+          </li>
         </ul>
       </nav>
 
       {/* Hero Section */}
-      <div id="home" className="h-screen flex items-center justify-between bg-black text-white px-8">
+      <div
+        id="home"
+        className="h-screen flex items-center justify-between bg-black text-white px-8"
+      >
         <div className="flex flex-col items-start w-1/2">
-          <button className="bg-gray-800 text-white px-6 py-2 rounded-full mb-8 hover:bg-gray-700">
-            Download Resume
-          </button>
           <h1 className="text-6xl font-bold mb-4">MR. MOKETE TYABEKANA</h1>
           <p className="text-lg mb-8 max-w-2xl">
-            Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Donec Pulvinar Eget Eros Vel Ultricies. Curabitur Aliquam Lacinia Enim, Quis Maximus Diam Malesuada Ac. Sed Maximus Orci Malesuada,
+            Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Donec
+            Pulvinar Eget Eros Vel Ultricies. Curabitur Aliquam Lacinia Enim,
+            Quis Maximus Diam Malesuada Ac. Sed Maximus Orci Malesuada,
           </p>
-          <button className="bg-gray-800 text-white px-6 py-2 rounded-full hover:bg-gray-700">
+          <button className="bg-gray-800 text-white px-6 py-2 rounded hover:bg-gray-700 ">
             Hire Me
           </button>
           <div className="flex space-x-4 mt-8">
-            <a href="#" className="text-white hover:text-gray-400"><FaFacebookF size={24} /></a>
-            <a href="#" className="text-white hover:text-gray-400"><FaTwitter size={24} /></a>
-            <a href="#" className="text-white hover:text-gray-400"><FaInstagram size={24} /></a>
-            <a href="#" className="text-white hover:text-gray-400"><FaLinkedinIn size={24} /></a>
-            <a href="#" className="text-white hover:text-gray-400"><FaGithub size={24} /></a>
+            <a href="#" className="text-white hover:text-gray-400">
+              <FaFacebookF size={24} />
+            </a>
+            <a href="#" className="text-white hover:text-gray-400">
+              <FaTwitter size={24} />
+            </a>
+            <a href="#" className="text-white hover:text-gray-400">
+              <FaInstagram size={24} />
+            </a>
+            <a href="#" className="text-white hover:text-gray-400">
+              <FaLinkedinIn size={24} />
+            </a>
+            <a href="#" className="text-white hover:text-gray-400">
+              <FaGithub size={24} />
+            </a>
           </div>
         </div>
-        <div className="relative w-1/2 flex justify-center">
-          <img src={mokete} alt="Profile" className="w-96 h-96 rounded-full object-cover shadow-lg " />
+        <div className="relative  w-1/2 flex justify-center">
+          <img
+            src={mokete}
+            alt="Profile"
+            className="w-96 h-96 rounded-full object-cover shadow-lg "
+          />
         </div>
       </div>
 
       {/* Sections */}
       <div className="pt-16">
-        <section id="about" className="h-screen flex items-center justify-center bg-green-200">
+        <section
+          id="about"
+          className="h-screen flex items-center justify-center bg-green-200"
+        >
           <h2 className="text-3xl font-semibold">About Me</h2>
         </section>
 
-        <section id="projects" className="h-screen flex items-center justify-center bg-yellow-200">
+        <section
+          id="projects"
+          className="h-screen flex items-center justify-center bg-yellow-200"
+        >
           <h2 className="text-3xl font-semibold">Projects</h2>
         </section>
 
-        <section id="contact" className="h-screen flex items-center justify-center bg-red-200">
+        <section
+          id="contact"
+          className="h-screen flex items-center justify-center bg-red-200"
+        >
           <h2 className="text-3xl font-semibold">Contact</h2>
         </section>
       </div>
