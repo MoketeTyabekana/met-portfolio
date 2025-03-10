@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import mokete from "./assets/mokete.jpg";
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -45,7 +47,7 @@ const App = () => {
 
       {/* Hero Section */}
       <div id="home" className="h-screen flex items-center justify-between bg-black text-white px-8">
-        <div className="flex flex-col items-start">
+        <div className="flex flex-col items-start w-1/2">
           <button className="bg-gray-800 text-white px-6 py-2 rounded-full mb-8 hover:bg-gray-700">
             Download Resume
           </button>
@@ -57,16 +59,15 @@ const App = () => {
             Hire Me
           </button>
           <div className="flex space-x-4 mt-8">
-            <a href="#" className="text-white hover:text-gray-400"><i className="fab fa-facebook-f"></i></a>
-            <a href="#" className="text-white hover:text-gray-400"><i className="fab fa-twitter"></i></a>
-            <a href="#" className="text-white hover:text-gray-400"><i className="fab fa-instagram"></i></a>
-            <a href="#" className="text-white hover:text-gray-400"><i className="fab fa-linkedin-in"></i></a>
-            <a href="#" className="text-white hover:text-gray-400"><i className="fab fa-github"></i></a>
+            <a href="#" className="text-white hover:text-gray-400"><FaFacebookF size={24} /></a>
+            <a href="#" className="text-white hover:text-gray-400"><FaTwitter size={24} /></a>
+            <a href="#" className="text-white hover:text-gray-400"><FaInstagram size={24} /></a>
+            <a href="#" className="text-white hover:text-gray-400"><FaLinkedinIn size={24} /></a>
+            <a href="#" className="text-white hover:text-gray-400"><FaGithub size={24} /></a>
           </div>
         </div>
-        <div className="relative">
-          <img src="path/to/your/image.jpg" alt="Profile" className="w-64 h-64 rounded-full object-cover shadow-lg" />
-          <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 opacity-50 blur-lg"></div>
+        <div className="relative w-1/2 flex justify-center">
+          <img src={mokete} alt="Profile" className="w-96 h-96 rounded-full object-cover shadow-lg " />
         </div>
       </div>
 
