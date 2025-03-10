@@ -82,7 +82,7 @@ const App = () => {
         className="h-screen flex items-center justify-between bg-black text-white px-16"
       >
         <div className="flex flex-col items-start w-1/2">
-          <h1 className="text-6xl font-bold mb-4">MR. MOKETE TYABEKANA</h1>
+          <h1 className="text-6xl font-bold mb-4"><span className="">MR.</span> MOKETE TYABEKANA</h1>
           <p className="text-lg mb-8 max-w-2xl">
             Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Donec
             Pulvinar Eget Eros Vel Ultricies. Curabitur Aliquam Lacinia Enim,
@@ -113,7 +113,9 @@ const App = () => {
           <img
             src={mokete}
             alt="Profile"
-            className="w-96 h-96 rounded-full object-cover shadow-lg "
+            className="w-96 h-96 rounded-full object-cover 
+         
+        shadow-[0_0_30px_rgba(255,255,255,0.6)] "
           />
         </div>
       </div>
