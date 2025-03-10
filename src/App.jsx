@@ -143,8 +143,9 @@ const App = () => {
       </div>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white text-center p-4">
+      <footer className="bg-gray-800 text-white flex justify-between px-4 py-10">
         <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        <p>Mokete Elias Tyabekana</p>
       </footer>
     </div>
   );
