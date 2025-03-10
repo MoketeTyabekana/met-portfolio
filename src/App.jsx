@@ -36,7 +36,7 @@ const App = () => {
   return (
     <div className="font-sans bg-gray-100 text-gray-800">
       {/* Navigation Bar */}
-      <nav className="fixed top-0 left-0 w-full bg-gray-900 text-white p-4 shadow-md z-50 flex justify-between items-center px-6">
+      <nav className="fixed top-0 left-0 w-full bg-gray-900 text-white p-4 shadow-md z-50 flex justify-between items-center px-16">
         <button className="bg-black text-white px-4 py-2 rounded-md font-semibold hover:bg-gray-700">
           Download Resume
         </button>
@@ -79,7 +79,7 @@ const App = () => {
       {/* Hero Section */}
       <div
         id="home"
-        className="h-screen flex items-center justify-between bg-black text-white px-8"
+        className="h-screen flex items-center justify-between bg-black text-white px-16"
       >
         <div className="flex flex-col items-start w-1/2">
           <h1 className="text-6xl font-bold mb-4">MR. MOKETE TYABEKANA</h1>
@@ -91,7 +91,7 @@ const App = () => {
           <button className="bg-gray-800 text-white px-6 py-2 rounded hover:bg-gray-700 ">
             Hire Me
           </button>
-          <div className="flex space-x-4 mt-8">
+          <div className="flex space-x-6 mt-8">
             <a href="#" className="text-white hover:text-gray-400">
               <FaFacebookF size={24} />
             </a>
@@ -109,7 +109,7 @@ const App = () => {
             </a>
           </div>
         </div>
-        <div className="relative  w-1/2 flex justify-center">
+        <div className="relative  w-1/2 flex justify-end">
           <img
             src={mokete}
             alt="Profile"
