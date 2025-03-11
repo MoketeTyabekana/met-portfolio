@@ -158,8 +158,7 @@ const App = () => {
                   Technology
                 </li>
                 <li>
-                  National Senior Certificate [Grade 12/Matric] : Kagisho
-                  Comprehensive Secondary Scchool
+                  National Senior Certificate [Grade 12/Matric] : Kagisho Secondary Scchool
                 </li>
               </div>
             </div>
