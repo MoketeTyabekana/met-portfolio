@@ -155,11 +155,11 @@ const App = () => {
               <h2 className="text-xl font-semibold">Education</h2>
               <div>
                 <li>
-                  Diploma in Information Technology: Central University Of
-                  Technology
+                 <a href=""> Diploma in Information Technology: Central University Of Technology</a>
+                 
                 </li>
                 <li>
-                  National Senior Certificate [Grade 12/Matric] : Kagisho Secondary Scchool
+                 <a href="">National Senior Certificate [Grade 12/Matric] : Kagisho Secondary Scchool</a>
                 </li>
               </div>
             </div>
@@ -170,12 +170,12 @@ gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-1/2"
             >
               <h2 className="text-xl font-semibold">Certifications / Short Courses</h2>
               <div>
-                <li>Front-End Web Development Program [ALX Africa]</li>
-                <li>National Senior Certificate [freeCodeCamp]</li>
-                <li>Web Programming Foundations [LinkedIn]</li>
-                <li>HTML Essential Training [LinkedIn]</li>
-                <li>JavaScript Essentials [Cisco]</li>
-                <li>Professional  Foundations [ALX Africa]</li>
+                <li><a href="">Front-End Web Development Program [ALX Africa]</a></li>
+                <li><a href="">National Senior Certificate [freeCodeCamp]</a></li>
+                <li><a href="">Web Programming Foundations [LinkedIn]</a></li>
+                <li><a href="">HTML Essential Training [LinkedIn]</a></li>
+                <li><a href="">JavaScript Essentials [Cisco]</a></li>
+                <li><a href="">Professional  Foundations [ALX Africa]</a></li>
               </div>
             </div>
           </div>
