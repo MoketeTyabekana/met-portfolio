@@ -8,7 +8,8 @@ import {
   FaGithub,
 } from "react-icons/fa";
 import mokete from "./assets/mokete.jpg";
-import Skills from "./components/skills";
+import Skills from "./components/Skills";
+import Footer from "./components/Footer"
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -84,8 +85,7 @@ const App = () => {
       >
         <div className="flex flex-col items-start w-1/2">
           <h1 className="text-4xl font-bold mb-4">
-            <span className=" text-gray-700">MR.</span> MOKETE
-            TYABEKANA
+            <span className=" text-gray-700">MR.</span> MOKETE TYABEKANA
           </h1>
           <p className="text-lg mb-8 max-w-3xl">
             Great front-end development isn’t just about writing code—it’s about
@@ -127,7 +127,10 @@ const App = () => {
 
       {/* Sections */}
       <div className="">
-        <section id="about" className="h-auto  bg-gray-950  p-16 flex flex-col justify-center items-center">
+        <section
+          id="about"
+          className="h-auto  bg-gray-950  p-16 flex flex-col justify-center items-center"
+        >
           <div
             className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20
  text-white  flex flex-col gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)]"
@@ -155,11 +158,12 @@ const App = () => {
               <h2 className="text-xl font-semibold">Education</h2>
               <div>
                 <li>
-                  Diploma in Information Technology: Central University Of Technology
-                 
+                  Diploma in Information Technology: Central University Of
+                  Technology
                 </li>
                 <li>
-                 National Senior Certificate [Grade 12/Matric] : Kagisho Secondary Scchool
+                  National Senior Certificate [Grade 12/Matric] : Kagisho
+                  Secondary Scchool
                 </li>
               </div>
             </div>
@@ -168,28 +172,82 @@ const App = () => {
               className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col 
 gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-1/2"
             >
-              <h2 className="text-xl font-semibold">Certifications / Short Courses</h2>
+              <h2 className="text-xl font-semibold">
+                Certifications / Short Courses
+              </h2>
               <div>
-                <li>Front-End Web Development Program<a href="" className="text-blue-400"> [ALX Africa]</a></li>
-                <li>National Senior Certificate<a href="" className="text-blue-400"> [freeCodeCamp]</a></li>
-                <li>Web Programming Foundations<a href="" className="text-blue-400"> [LinkedIn]</a></li>
-                <li>HTML Essential Training<a href="" className="text-blue-400"> [LinkedIn]</a></li>
-                <li>JavaScript Essentials<a href="" className="text-blue-400"> [Cisco]</a></li>
-                <li>Professional  Foundations<a href="" className="text-blue-400"> [ALX Africa]</a></li>
+                <li className="list-">
+                  Front-End Web Development Program
+                  <a href="" className="text-blue-400">
+                    {" "}
+                    [ALX Africa]
+                  </a>
+                </li>
+                <li>
+                  National Senior Certificate
+                  <a href="" className="text-blue-400">
+                    {" "}
+                    [freeCodeCamp]
+                  </a>
+                </li>
+                <li>
+                  Web Programming Foundations
+                  <a href="" className="text-blue-400">
+                    {" "}
+                    [LinkedIn]
+                  </a>
+                </li>
+                <li>
+                  HTML Essential Training
+                  <a href="" className="text-blue-400">
+                    {" "}
+                    [LinkedIn]
+                  </a>
+                </li>
+                <li>
+                  JavaScript Essentials
+                  <a href="" className="text-blue-400">
+                    {" "}
+                    [Cisco]
+                  </a>
+                </li>
+                <li>
+                  Professional Foundations
+                  <a href="" className="text-blue-400">
+                    {" "}
+                    [ALX Africa]
+                  </a>
+                </li>
               </div>
             </div>
           </div>
 
-          <Skills/>
+          <Skills />
         </section>
 
         <section
           id="projects"
-          className="h-screen flex bg-gray-900 text-white  p-16"
+          className="h-auto flex flex-col gap-10 bg-gray-900 text-white  p-16"
         >
           <h2 className="text-3xl font-semibold">Projects</h2>
 
-          
+          <div className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full">
+            <h2 className="text-xl font-semibold">Development</h2>
+          </div>
+
+          <div
+            className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 
+hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
+          >
+            <h2 className="text-xl font-semibold">Design</h2>
+          </div>
+
+          <div
+            className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 
+hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
+          >
+            <h2 className="text-xl font-semibold">Graphic Design</h2>
+          </div>
         </section>
 
         <section
@@ -201,10 +259,10 @@ gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-1/2"
       </div>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white flex justify-between px-4 py-10">
-        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
-        <p>Mokete Elias Tyabekana</p>
-      </footer>
+     
+     
+     
+     <Footer/>
     </div>
   );
 };
