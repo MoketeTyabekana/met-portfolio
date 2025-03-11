@@ -128,7 +128,7 @@ const App = () => {
       <div className="">
         <section id="about" className="h-screen  bg-black py-8 px-16">
           <div className="px-4 py-12 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20
- text-white rounded-lg flex flex-col gap-4">
+ text-white  flex flex-col gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)]">
             <h2 className="text-3xl font-semibold">About Me</h2>
             <p>
               I’m Mokete Elias Tyabekana, a passionate Frontend Developer &
