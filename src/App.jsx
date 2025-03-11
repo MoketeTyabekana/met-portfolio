@@ -36,8 +36,8 @@ const App = () => {
   return (
     <div className="font-sans bg-gray-100 text-gray-800">
       {/* Navigation Bar */}
-      <nav className="fixed top-0 left-0 w-full bg-gray-900 text-white p-4 shadow-md z-50 flex justify-between items-center px-16">
-        <button className="bg-black text-white px-4 py-2 rounded-md font-semibold hover:bg-gray-700">
+      <nav className="fixed top-0 left-0 w-full  text-white p-4 shadow-md z-50 flex justify-between items-center px-16 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10">
+        <button className="bg-black text-white px-10 py-2 rounded-md font-semibold hover:bg-gray-700 ">
           Download Resume
         </button>
         <div className="md:hidden">
@@ -82,11 +82,17 @@ const App = () => {
         className="h-screen flex items-center justify-between bg-black text-white px-16"
       >
         <div className="flex flex-col items-start w-1/2">
-          <h1 className="text-6xl font-bold mb-4"><span className=" text-2xl text-gray-700">MR.</span> MOKETE TYABEKANA</h1>
+          <h1 className="text-6xl font-bold mb-4">
+            <span className=" text-2xl text-gray-700">MR.</span> MOKETE
+            TYABEKANA
+          </h1>
           <p className="text-lg mb-8 max-w-2xl">
-          Great front-end development isn’t just about writing code—it’s about crafting seamless, intuitive experiences that users love. Every pixel, every interaction, and every animation tells a story—make it a masterpiece.
+            Great front-end development isn’t just about writing code—it’s about
+            crafting seamless, intuitive experiences that users love. Every
+            pixel, every interaction, and every animation tells a story—make it
+            a masterpiece.
           </p>
-          <button className="bg-gray-800 text-white px-6 py-2 rounded hover:bg-gray-700 ">
+          <button className="bg-gray-800 text-white px-6 py-2 rounded hover:shadow-[0_0_5px_rgba(59,130,246,0.7)] animate-pulse">
             Hire Me
           </button>
           <div className="flex space-x-6 mt-8">
@@ -113,18 +119,33 @@ const App = () => {
             alt="Profile"
             className="w-96 h-96 rounded-full object-cover 
          
-        shadow-[0_0_30px_rgba(255,255,255,0.6)] "
+        shadow-[0_0_40px_rgba(59,130,246,0.7)] animate-pulse "
           />
         </div>
       </div>
 
       {/* Sections */}
-      <div className="pt-16">
-        <section
-          id="about"
-          className="h-screen flex items-center justify-center bg-green-200"
-        >
-          <h2 className="text-3xl font-semibold">About Me</h2>
+      <div className="">
+        <section id="about" className="h-screen  bg-black py-8 px-16">
+          <div className="px-4 py-12 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20
+ text-white rounded-lg flex flex-col gap-4">
+            <h2 className="text-3xl font-semibold">About Me</h2>
+            <p>
+              I’m Mokete Elias Tyabekana, a passionate Frontend Developer &
+              UI/UX Designer with expertise in React, JavaScript, and Tailwind
+              CSS, dedicated to building responsive and user-friendly
+              applications. With a Diploma in Information Technology from
+              Central University of Technology, Free State, I have experience in
+              web development, UI/UX design, and IT support, having worked as an
+              IT Officer at Softstart BTI (Botshabelo Digital Hub), where I
+              mentored interns and assisted startups. I enjoy transforming ideas
+              into digital experiences, whether through intuitive UI designs in
+              Figma or developing scalable web applications. Currently, I’m
+              expanding my knowledge in React Native and working on projects
+              that merge creativity with functionality to solve real-world
+              problems.
+            </p>
+          </div>
         </section>
 
         <section
