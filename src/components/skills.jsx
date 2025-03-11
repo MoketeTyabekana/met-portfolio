@@ -13,7 +13,10 @@ const Skills = () => {
         { name: "React", icon: <FaReact /> },
         { name: "HTML", icon: <FaHtml5 /> },
         { name: "CSS", icon: <FaCss3Alt /> },
+        { name: "Node.js", icon: <FaNodeJs /> },
+        { name: "CSS", icon: <FaCss3Alt /> },
         { name: "Node.js", icon: <FaNodeJs /> }
+        
     ];
 
     return(
@@ -22,8 +25,8 @@ const Skills = () => {
             <div className="flex flex-row flex-wrap justify-around">
            
                 {skills.map((skill, index) => (
-                    <div className=" text-center" key={index} style={{  margin: "10px", width: "100px", height: "100px", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
-                       <span className=""> {skill.icon}</span>
+                    <div className=" text-center bg-white rounded-md text-gray-950 flex flex-col items-center gap-4 w-[100px] h-[120px] p-4" key={index} >
+                       <span className="text-5xl"> {skill.icon}</span>
                         <p>{skill.name}</p>
                     </div>
                 ))}
