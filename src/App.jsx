@@ -87,7 +87,7 @@ const App = () => {
             <span className=" text-gray-700">MR.</span> MOKETE
             TYABEKANA
           </h1>
-          <p className="text-lg mb-8 max-w-2xl">
+          <p className="text-lg mb-8 max-w-3xl">
             Great front-end development isn’t just about writing code—it’s about
             crafting seamless, intuitive experiences that users love. Every
             pixel, every interaction, and every animation tells a story—make it
@@ -96,7 +96,7 @@ const App = () => {
           <button className="bg-gray-950 text-white px-6 py-2 rounded hover:shadow-[0_0_5px_rgba(59,130,246,0.7)] animate-pulse">
             Hire Me
           </button>
-          <div className="flex space-x-6 mt-8">
+          <div className="flex space-x-10 mt-8">
             <a href="#" className="text-white hover:text-gray-400">
               <FaFacebookF size={24} />
             </a>
