@@ -185,7 +185,7 @@ gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-1/2"
 
         <section
           id="projects"
-          className="h-screen flex items-center justify-center bg-yellow-200"
+          className="h-screen flex items-center justify-between bg-gray-900 text-white px-16"
         >
           <h2 className="text-3xl font-semibold">Projects</h2>
         </section>
