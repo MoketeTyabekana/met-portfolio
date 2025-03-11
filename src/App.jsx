@@ -118,7 +118,7 @@ const App = () => {
           <img
             src={mokete}
             alt="Profile"
-            className="w-96 h-96 rounded-full object-cover 
+            className="w-[500px] h-[500px] rounded-full object-cover 
          
         shadow-[0_0_40px_rgba(59,130,246,0.7)] animate-pulse "
           />
@@ -155,11 +155,11 @@ const App = () => {
               <h2 className="text-xl font-semibold">Education</h2>
               <div>
                 <li>
-                 <a href=""> Diploma in Information Technology: Central University Of Technology</a>
+                  Diploma in Information Technology: Central University Of Technology
                  
                 </li>
                 <li>
-                 <a href="">National Senior Certificate [Grade 12/Matric] : Kagisho Secondary Scchool</a>
+                 National Senior Certificate [Grade 12/Matric] : Kagisho Secondary Scchool
                 </li>
               </div>
             </div>
@@ -170,12 +170,12 @@ gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-1/2"
             >
               <h2 className="text-xl font-semibold">Certifications / Short Courses</h2>
               <div>
-                <li><a href="">Front-End Web Development Program [ALX Africa]</a></li>
-                <li><a href="">National Senior Certificate [freeCodeCamp]</a></li>
-                <li><a href="">Web Programming Foundations [LinkedIn]</a></li>
-                <li><a href="">HTML Essential Training [LinkedIn]</a></li>
-                <li><a href="">JavaScript Essentials [Cisco]</a></li>
-                <li><a href="">Professional  Foundations [ALX Africa]</a></li>
+                <li>Front-End Web Development Program<a href="" className="text-blue-700"> [ALX Africa]</a></li>
+                <li>National Senior Certificate<a href="" className="text-blue-700"> [freeCodeCamp]</a></li>
+                <li>Web Programming Foundations<a href="" className="text-blue-700"> [LinkedIn]</a></li>
+                <li>HTML Essential Training<a href="" className="text-blue-700"> [LinkedIn]</a></li>
+                <li>JavaScript Essentials<a href="" className="text-blue-700"> [Cisco]</a></li>
+                <li>Professional  Foundations<a href="" className="text-blue-700"> [ALX Africa]</a></li>
               </div>
             </div>
           </div>
