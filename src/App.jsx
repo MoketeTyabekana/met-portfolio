@@ -5,6 +5,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import Hero from "./components/Hero";
+import Contact from "./components/Contact"
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -80,15 +81,10 @@ const App = () => {
       <div className="">
         {/* About me section */}
         <About />
-{/* My projects section */}
+        {/* My projects section */}
         <Projects />
-
-        <section
-          id="contact"
-          className="h-screen flex items-center justify-center bg-red-200"
-        >
-          <h2 className="text-3xl font-semibold">Contact</h2>
-        </section>
+        {/* Contact me section */}
+        <Contact/>
       </div>
 
       {/* Footer */}
