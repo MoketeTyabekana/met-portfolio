@@ -37,7 +37,7 @@ const App = () => {
     <div className="font-sans bg-gray-100 text-gray-800">
       {/* Navigation Bar */}
       <nav className="fixed top-0 left-0 w-full  text-white p-4 shadow-md z-50 flex justify-between items-center px-16 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10">
-        <button className="bg-black text-white px-10 py-2 rounded-md font-semibold hover:bg-gray-700 ">
+        <button className="bg-gray-900 text-white px-10 py-2 rounded-md font-semibold hover:bg-gray-950 ">
           Download Resume
         </button>
         <div className="md:hidden">
@@ -79,7 +79,7 @@ const App = () => {
       {/* Hero Section */}
       <div
         id="home"
-        className="h-screen flex items-center justify-between bg-black text-white px-16"
+        className="h-screen flex items-center justify-between bg-gray-900 text-white px-16"
       >
         <div className="flex flex-col items-start w-1/2">
           <h1 className="text-4xl font-bold mb-4">
@@ -92,7 +92,7 @@ const App = () => {
             pixel, every interaction, and every animation tells a story—make it
             a masterpiece.
           </p>
-          <button className="bg-gray-800 text-white px-6 py-2 rounded hover:shadow-[0_0_5px_rgba(59,130,246,0.7)] animate-pulse">
+          <button className="bg-gray-950 text-white px-6 py-2 rounded hover:shadow-[0_0_5px_rgba(59,130,246,0.7)] animate-pulse">
             Hire Me
           </button>
           <div className="flex space-x-6 mt-8">
@@ -126,7 +126,7 @@ const App = () => {
 
       {/* Sections */}
       <div className="">
-        <section id="about" className="h-screen  bg-black py-8 px-16">
+        <section id="about" className="h-screen  bg-gray-950 py-8 px-16">
           <div
             className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20
  text-white  flex flex-col gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)]"
