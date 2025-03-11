@@ -127,8 +127,10 @@ const App = () => {
       {/* Sections */}
       <div className="">
         <section id="about" className="h-screen  bg-black py-8 px-16">
-          <div className="px-4 py-12 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20
- text-white  flex flex-col gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)]">
+          <div
+            className="px-4 py-12 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20
+ text-white  flex flex-col gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)]"
+          >
             <h2 className="text-3xl font-semibold">About Me</h2>
             <p>
               I’m Mokete Elias Tyabekana, a passionate Frontend Developer &
@@ -145,6 +147,21 @@ const App = () => {
               that merge creativity with functionality to solve real-world
               problems.
             </p>
+          </div>
+
+          <div className=" flex flex-row gap-10 w-full mt-10">
+            <div className="px-4 py-12 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-1/2">
+              <h2 className="text-3xl font-semibold">About Me</h2>
+              <p></p>
+            </div>
+
+            <div
+              className="px-4 py-12 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col 
+gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-1/2"
+            >
+              <h2 className="text-3xl font-semibold">About Me</h2>
+              <p></p>
+            </div>
           </div>
         </section>
 
