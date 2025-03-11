@@ -179,6 +179,8 @@ gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-1/2"
               </div>
             </div>
           </div>
+
+          <Skills/>
         </section>
 
         <section
