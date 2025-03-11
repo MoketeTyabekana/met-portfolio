@@ -152,7 +152,7 @@ const App = () => {
           <div className=" flex flex-row gap-10 w-full mt-10">
             <div className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-1/2">
               <h2 className="text-xl font-semibold">Education</h2>
-              <ul>
+              <div>
                 <li>
                   Diploma in Information Technology: Central University Of
                   Technology
@@ -161,7 +161,7 @@ const App = () => {
                   National Senior Certificate [Grade 12/Matric] : Kagisho
                   Comprehensive Secondary Scchool
                 </li>
-              </ul>
+              </div>
             </div>
 
             <div
@@ -169,14 +169,14 @@ const App = () => {
 gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-1/2"
             >
               <h2 className="text-xl font-semibold">Certifications / Short Courses</h2>
-              <ul>
+              <div>
                 <li>Front-End Web Development Program [ALX Africa]</li>
                 <li>National Senior Certificate [freeCodeCamp]</li>
                 <li>Web Programming Foundations [LinkedIn]</li>
                 <li>HTML Essential Training [LinkedIn]</li>
                 <li>JavaScript Essentials [Cisco]</li>
                 <li>Professional  Foundations [ALX Africa]</li>
-              </ul>
+              </div>
             </div>
           </div>
         </section>
