@@ -8,6 +8,7 @@ import {
   FaGithub,
 } from "react-icons/fa";
 import mokete from "./assets/mokete.jpg";
+import Skills from "./components/skills";
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
