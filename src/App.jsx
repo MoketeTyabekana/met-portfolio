@@ -127,7 +127,7 @@ const App = () => {
 
       {/* Sections */}
       <div className="">
-        <section id="about" className="h-screen  bg-gray-950  p-16 flex flex-col justify-center items-center">
+        <section id="about" className="h-auto  bg-gray-950  p-16 flex flex-col justify-center items-center">
           <div
             className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20
  text-white  flex flex-col gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)]"
