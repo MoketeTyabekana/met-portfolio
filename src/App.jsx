@@ -82,8 +82,8 @@ const App = () => {
         className="h-screen flex items-center justify-between bg-black text-white px-16"
       >
         <div className="flex flex-col items-start w-1/2">
-          <h1 className="text-6xl font-bold mb-4">
-            <span className=" text-2xl text-gray-700">MR.</span> MOKETE
+          <h1 className="text-4xl font-bold mb-4">
+            <span className=" text-gray-700">MR.</span> MOKETE
             TYABEKANA
           </h1>
           <p className="text-lg mb-8 max-w-2xl">
@@ -151,7 +151,7 @@ const App = () => {
 
           <div className=" flex flex-row gap-10 w-full mt-10">
             <div className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-1/2">
-              <h3 className="text-3xl font-semibold">Education</h3>
+              <h2 className="text-xl font-semibold">Education</h2>
               <ul>
                 <li>
                   Diploma in Information Technology: Central University Of
@@ -168,8 +168,15 @@ const App = () => {
               className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col 
 gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-1/2"
             >
-              <h3 className="text-3xl font-semibold">About Me</h3>
-              <ul></ul>
+              <h2 className="text-xl font-semibold">Certifications / Short Courses</h2>
+              <ul>
+                <li>Front-End Web Development Program [ALX Africa]</li>
+                <li>National Senior Certificate [freeCodeCamp]</li>
+                <li>Web Programming Foundations [LinkedIn]</li>
+                <li>HTML Essential Training [LinkedIn]</li>
+                <li>JavaScript Essentials [Cisco]</li>
+                <li>Professional  Foundations [ALX Africa]</li>
+              </ul>
             </div>
           </div>
         </section>
