@@ -170,12 +170,12 @@ gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-1/2"
             >
               <h2 className="text-xl font-semibold">Certifications / Short Courses</h2>
               <div>
-                <li>Front-End Web Development Program<a href="" className="text-blue-700"> [ALX Africa]</a></li>
-                <li>National Senior Certificate<a href="" className="text-blue-700"> [freeCodeCamp]</a></li>
-                <li>Web Programming Foundations<a href="" className="text-blue-700"> [LinkedIn]</a></li>
-                <li>HTML Essential Training<a href="" className="text-blue-700"> [LinkedIn]</a></li>
-                <li>JavaScript Essentials<a href="" className="text-blue-700"> [Cisco]</a></li>
-                <li>Professional  Foundations<a href="" className="text-blue-700"> [ALX Africa]</a></li>
+                <li>Front-End Web Development Program<a href="" className="text-blue-400"> [ALX Africa]</a></li>
+                <li>National Senior Certificate<a href="" className="text-blue-400"> [freeCodeCamp]</a></li>
+                <li>Web Programming Foundations<a href="" className="text-blue-400"> [LinkedIn]</a></li>
+                <li>HTML Essential Training<a href="" className="text-blue-400"> [LinkedIn]</a></li>
+                <li>JavaScript Essentials<a href="" className="text-blue-400"> [Cisco]</a></li>
+                <li>Professional  Foundations<a href="" className="text-blue-400"> [ALX Africa]</a></li>
               </div>
             </div>
           </div>
@@ -185,9 +185,11 @@ gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-1/2"
 
         <section
           id="projects"
-          className="h-screen flex items-center justify-between bg-gray-900 text-white px-16"
+          className="h-screen flex bg-gray-900 text-white  p-16"
         >
           <h2 className="text-3xl font-semibold">Projects</h2>
+
+          
         </section>
 
         <section
