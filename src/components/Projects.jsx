@@ -1,5 +1,6 @@
 import React from "react";
 import projects from "../data/development.json";
+import { FaArrowRight } from "react-icons/fa";
 
 const Projects =()=>{
 
@@ -11,7 +12,7 @@ const Projects =()=>{
 <div className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full">
   <h2 className="text-xl font-semibold">Development</h2>
 
-   <div className="flex flex-wrap justify-between gap-4">
+   <div className="flex flex-wrap  gap-4">
 
    {projects.projects && projects.projects.length > 0 && projects.projects.map((project, index) => (
    
@@ -20,7 +21,9 @@ const Projects =()=>{
      key={index}
    >
      <img src={project.image} alt="project image"  className="rounded"/>
-     <a href={project.link} className="text-xl font-bold text-gray-800 "><span className="text-sm ">{project.title} </span></a>
+    <div className="flex flex-row justify-center w-full mt-4">
+    <a href={project.link} className="text-xl flex items-center justify-center gap-2 "><span className="text-sm font-bold text-gray-800">{project.title}</span> <FaArrowRight size={12}/></a>
+    </div>
    </div>
  ))}
    </div>
