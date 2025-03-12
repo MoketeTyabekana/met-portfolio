@@ -1,26 +1,31 @@
 import React from "react";
 import {
-  FaJsSquare,
-  FaReact,
-  FaHtml5,
-  FaCss3Alt,
-  FaNodeJs,
-} from "react-icons/fa";
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiReact,
+  SiTailwindcss,
+  SiBootstrap,
+  SiGit,
+  SiFigma,
+  SiAdobephotoshop,
+  SiAdobexd,
+  SiAdobeillustrator
+} from "react-icons/si";
 
 const About = () => {
   const skills = [
-    { name: "HTML", icon: <FaHtml5 /> },
-    { name: "CSS", icon: <FaCss3Alt /> },
-    { name: "JavaScript", icon: <FaJsSquare /> },
-    { name: "React", icon: <FaReact /> },
-    { name: "Node.js", icon: <FaNodeJs /> },
-    { name: "JavaScript", icon: <FaJsSquare /> },
-    { name: "React", icon: <FaReact /> },
-    { name: "HTML", icon: <FaHtml5 /> },
-    { name: "CSS", icon: <FaCss3Alt /> },
-    { name: "Node.js", icon: <FaNodeJs /> },
-    { name: "CSS", icon: <FaCss3Alt /> },
-    { name: "Node.js", icon: <FaNodeJs /> },
+    { name: "HTML", icon: <SiHtml5 /> },
+    { name: "CSS", icon: < SiCss3 /> },
+    { name: "JavaScript", icon: <SiJavascript /> },
+    { name: "React", icon: <SiReact /> },
+    { name: "Tailwind CSS", icon: <SiTailwindcss /> },
+    { name: "Bootstrap", icon: <SiBootstrap /> },
+    { name: "Git", icon: <SiGit /> },
+    { name: "Figma", icon: <SiFigma /> },
+    { name: "Photoshop ", icon: <SiAdobephotoshop /> },
+    { name: "XD", icon: <SiAdobexd /> },
+    { name: "Illustrator", icon: <SiAdobeillustrator /> },
   ];
 
   return (
@@ -125,11 +130,11 @@ gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-1/2"
         <div className="flex flex-row flex-wrap justify-between">
           {skills.map((skill, index) => (
             <div
-              className=" text-center bg-white rounded-md text-gray-950 flex flex-col items-center gap-y-4 w-[100px] h-[120px] p-4"
+              className=" text-center bg-white rounded-md text-gray-950 flex flex-col items-center justify-between gap-y-4 w-[100px] h-[120px] py-4 px-2"
               key={index}
             >
               <span className="text-5xl"> {skill.icon}</span>
-              <p>{skill.name}</p>
+              <p className="text-sm">{skill.name}</p>
             </div>
           ))}
         </div>
