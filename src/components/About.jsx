@@ -127,8 +127,8 @@ gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-1/2"
 
       <div className=" w-full mt-10 px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] ">
         <h2 className="text-xl font-semibold">Skills & Technologies</h2>
-        <div className="flex flex-row flex-wrap justify-between">
-          {skills.map((skill, index) => (
+        <div className="flex flex-row flex-wrap gap-4">
+          {skills && skills.length>0 && skills.map((skill, index) => (
             <div
               className=" text-center bg-white rounded-md text-gray-950 flex flex-col items-center justify-between gap-y-4 w-[100px] h-[120px] py-4 px-2"
               key={index}
