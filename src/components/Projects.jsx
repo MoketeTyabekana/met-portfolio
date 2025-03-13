@@ -16,9 +16,9 @@ const Projects = () => {
         <div className="flex flex-wrap xl:justify-between  gap-4">
           {projects.projects &&
             projects.projects.length > 0 &&
-            projects.projects.map((project, index) => (
+            projects.projects.slice(0,4).map((project, index) => (
               <div
-                className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between w-[200px] h-auto  p-2 hover:scale-105"
+                className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between xl:w-[300px] h-auto  p-2 hover:scale-105"
                 key={index}
               >
                 <img
@@ -41,12 +41,14 @@ const Projects = () => {
               </div>
             ))}
         </div>
-        <a
-          href=""
-          className="flex flex-row items-center gap-4 self-end text-gray-50 font-bold hover:text-blue-400"
-        >
-          <span>View More</span> <FaArrowRight size={16} />
-        </a>
+        
+              <a
+              href=""
+              className="flex flex-row items-center gap-4 self-end text-gray-50 font-bold hover:text-blue-400"
+            >
+              <span>View More</span> <FaArrowRight size={16} />
+            </a>
+       
       </div>
 
       <div
@@ -58,9 +60,9 @@ hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
         <div className="flex flex-wrap xl:justify-between  gap-4">
           {projects.projects &&
             projects.projects.length > 0 &&
-            projects.projects.map((project, index) => (
+            projects.projects.slice(0,4).map((project, index) => (
               <div
-                className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between w-[200px] h-auto  p-2 hover:scale-105"
+                className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between xl:w-[300px] h-auto  p-2 hover:scale-105"
                 key={index}
               >
                 <img
@@ -100,9 +102,9 @@ hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
         <div className="flex flex-wrap xl:justify-between  gap-4">
         {projects.projects &&
           projects.projects.length > 0 &&
-          projects.projects.map((project, index) => (
+          projects.projects.slice(0,4).map((project, index) => (
             <div
-              className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between w-[200px] h-auto  p-2 hover:scale-105"
+              className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between xl:w-[300px] h-auto  p-2 hover:scale-105"
               key={index}
             >
               <img
