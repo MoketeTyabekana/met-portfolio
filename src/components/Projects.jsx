@@ -41,13 +41,16 @@ const Projects = () => {
               </div>
             ))}
         </div>
-        
-              <a
-              href=""
-              className="flex flex-row items-center gap-4 self-end text-gray-50 font-bold hover:text-blue-400"
-            >
-              <span>View More</span> <FaArrowRight size={16} />
-            </a>
+
+        {/* A condition statement to activate the view mmore button only if the array has more than 4 projects in the list */}
+        {projects.projects && projects.projects.length > 4 && (
+                <a
+                href=""
+                className="flex flex-row items-center gap-4 self-end text-gray-50 font-bold hover:text-blue-400"
+              >
+                <span>View More</span> <FaArrowRight size={16} />
+              </a>
+        )}
        
       </div>
 
@@ -85,12 +88,16 @@ hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
               </div>
             ))}
         </div>
-        <a
-          href=""
-          className="flex flex-row items-center gap-4 self-end text-gray-50 font-bold hover:text-blue-400"
-        >
-          <span>View More</span> <FaArrowRight size={16} />
-        </a>
+
+        {/* A condition statement to activate the view mmore button only if the array has more than 4 projects in the list */}
+        {projects.projects && projects.projects.length > 4 && (
+         <a
+         href=""
+         className="flex flex-row items-center gap-4 self-end text-gray-50 font-bold hover:text-blue-400"
+       >
+         <span>View More</span> <FaArrowRight size={16} />
+       </a>
+ )}
       </div>
 
       <div
@@ -127,12 +134,16 @@ hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
             </div>
           ))}
       </div>
-      <a
-        href=""
-        className="flex flex-row items-center gap-4 self-end text-gray-50 font-bold hover:text-blue-400"
-      >
-        <span>View More</span> <FaArrowRight size={16} />
-      </a>
+
+      {/* A condition statement to activate the view mmore button only if the array has more than 4 projects in the list */}
+      {projects.projects && projects.projects.length > 4 && (
+         <a
+         href=""
+         className="flex flex-row items-center gap-4 self-end text-gray-50 font-bold hover:text-blue-400"
+       >
+         <span>View More</span> <FaArrowRight size={16} />
+       </a>
+ )}
       </div>
     </section>
   );
