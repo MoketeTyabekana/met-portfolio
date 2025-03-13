@@ -6,19 +6,19 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="h-auto flex flex-col gap-10 bg-gray-900 text-white  p-16 md:p-4"
+      className="h-auto flex flex-col gap-10 bg-gray-900 text-white  p-16"
     >
       <h2 className="text-3xl font-semibold">Projects</h2>
 
-      <div className="px-4 py-8 md:py-2 md:px-2 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full">
+      <div className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full">
         <h2 className="text-xl font-semibold">Font-End Development</h2>
 
-        <div className="flex flex-wrap xl:justify-between md:justify-between  gap-4 md:gap-2">
+        <div className="flex flex-wrap xl:justify-between  gap-4">
           {projects.projects &&
             projects.projects.length > 0 &&
             projects.projects.slice(0,4).map((project, index) => (
               <div
-                className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between w-[300px] md:w-[250px] h-auto  p-2 hover:scale-105"
+                className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between xl:w-[300px] h-auto  p-2 hover:scale-105"
                 key={index}
               >
                 <img
@@ -65,7 +65,7 @@ hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
             projects.projects.length > 0 &&
             projects.projects.slice(0,4).map((project, index) => (
               <div
-                className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between w-[300px] md:w-[250px] h-auto  p-2 hover:scale-105"
+                className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between xl:w-[300px] h-auto  p-2 hover:scale-105"
                 key={index}
               >
                 <img
@@ -111,7 +111,7 @@ hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
           projects.projects.length > 0 &&
           projects.projects.slice(0,4).map((project, index) => (
             <div
-              className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between w-[300px] md:w-[250px] h-auto  p-2 hover:scale-105"
+              className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between xl:w-[300px] h-auto  p-2 hover:scale-105"
               key={index}
             >
               <img

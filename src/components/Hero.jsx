@@ -13,9 +13,9 @@ const Hero =() =>{
     return(
         <div
         id="home"
-        className="h-screen flex md:flex-col   items-center md:justify-around justify-between bg-gray-900 text-white px-16 md:px-4"
+        className="h-screen flex items-center justify-between bg-gray-900 text-white px-16"
       >
-        <div className="flex flex-col  items-start w-1/2 md:w-full ">
+        <div className="flex flex-col items-start w-1/2">
           <h1 className="text-4xl font-bold mb-4">
             <span className=" text-gray-700">MR.</span> MOKETE TYABEKANA
           </h1>
@@ -46,11 +46,11 @@ const Hero =() =>{
             </a>
           </div>
         </div>
-        <div className="relative md:w-full md:justify-center  w-1/2 flex justify-end">
+        <div className="relative  w-1/2 flex justify-end">
           <img
             src={mokete}
             alt="Profile"
-            className="w-[500px] h-[500px]  rounded-full object-cover 
+            className="w-[500px] h-[500px] rounded-full object-cover 
          
         shadow-[0_0_40px_rgba(59,130,246,0.7)] animate-pulse "
           />
