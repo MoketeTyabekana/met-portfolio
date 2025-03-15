@@ -1,7 +1,6 @@
 import React from "react";
 import projects from "../data/development.json";
 import { FaArrowRight } from "react-icons/fa";
-import ProjectsCard from "./ProjectsCard";
 
 
 const Projects = () => {
