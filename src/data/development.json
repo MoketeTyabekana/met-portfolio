@@ -7,27 +7,27 @@
         },
         {
             "title": "Movie Dashboard",
-            "image": "/public/assets/emt.png",
+            "image": "/assets/emt.png",
             "link": "https://emtmovies.vercel.app/"
         },
         {
             "title": "Weather App",
-            "image": "/public/assets/weather.png",
+            "image": "/assets/weather.png",
             "link": "https://weatherapp-ochre-three.vercel.app/"
         },
         {
             "title": "BDH Website",
-            "image": "/public/assets/bdh.png",
+            "image": "/assets/bdh.png",
             "link": "https://botshabelohub.co.za/"
         },
         {
             "title": "Movie Dashboard",
-            "image": "/public/assets/emt.png",
+            "image": "/assets/emt.png",
             "link": "https://emtmovies.vercel.app/"
         },
         {
             "title": "Weather App",
-            "image": "/public/assets/weather.png",
+            "image": "/assets/weather.png",
             "link": "https://weatherapp-ochre-three.vercel.app/"
         }
 

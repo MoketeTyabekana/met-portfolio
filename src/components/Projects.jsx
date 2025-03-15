@@ -13,12 +13,12 @@ const Projects = () => {
       <div className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full">
         <h2 className="text-xl font-semibold">Font-End Development</h2>
 
-        <div className="flex flex-wrap xl:justify-between  gap-4">
+        <div className="grid grid-cols-4  xl:justify-between  gap-4">
           {projects.projects &&
             projects.projects.length > 0 &&
             projects.projects.slice(0,4).map((project, index) => (
               <div
-                className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between xl:w-[300px] h-auto  p-2 hover:scale-105"
+                className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between  h-auto  p-2 hover:scale-105"
                 key={index}
               >
                 <img
