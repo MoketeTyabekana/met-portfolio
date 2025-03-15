@@ -52,7 +52,7 @@ const Hero =() =>{
             alt="Profile"
             className="w-[80%] h-auto rounded-full object-cover 
          
-        shadow-[0_0_40px_rgba(59,130,246,0.7)] animate-pulse "
+        shadow-[0_0_40px_rgba(59,130,246,0.7)]  "
           />
         </div>
       </div>
