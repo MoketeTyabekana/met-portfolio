@@ -7,6 +7,7 @@ import {
   FaInstagram,
   FaLinkedinIn,
   FaGithub,
+  FaWhatsapp
 } from "react-icons/fa";
 
 const Hero =() =>{
@@ -44,6 +45,9 @@ const Hero =() =>{
             <a href="https://github.com/MoketeTyabekana/" target="blank" className="text-white lg:hover:text-gray-400">
               <FaGithub size={24} />
             </a>
+            <a href="https://wa.me/27671134716" target="blank" className="text-white lg:hover:text-gray-400">
+    <FaWhatsapp size={24} />
+  </a>
           </div>
         </div>
         <div className="relative  flex lg:justify-end justify-center  p-10 lg:py-20">
