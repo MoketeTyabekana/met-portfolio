@@ -35,8 +35,8 @@ const App = () => {
     <div className="font-sans bg-gray-100 text-gray-800">
       {/* Navigation Bar */}
       <nav className="fixed top-0 left-0 w-full  text-white p-4 shadow-md z-50 flex justify-between items-center md:px-16 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10">
-        <button className="bg-gray-900 text-white px-10 py-2 rounded-md font-semibold hover:bg-gray-950 ">
-          Download Resume
+        <button className="bg-gray-900 text-white px-10 py-2 rounded-md font-semibold lg:shadow-[0_0_10px_rgba(100,130,246,0.7)] lg:animate-pulse ">
+          Hire Me
         </button>
         <div className="md:hidden">
           <button
