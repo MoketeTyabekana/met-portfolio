@@ -29,7 +29,7 @@ const Hero =() =>{
          
          
          
-          <div className="flex space-x-10 mt-8 lg:w-fit w-full justify-center">
+          <div className="flex gap-x-6 mt-8 lg:w-fit w-full justify-center">
             <a href="https://web.facebook.com/kayno.Eli.mokete/" target="blank" className="text-white lg:hover:text-gray-400">
               <FaFacebookF size={24} />
             </a>
@@ -50,11 +50,11 @@ const Hero =() =>{
   </a>
           </div>
         </div>
-        <div className="relative  flex lg:justify-end justify-center  p-10 lg:py-20">
+        <div className="relative  flex lg:justify-end justify-center  p-6 lg:py-20">
           <img
             src={mokete}
             alt="Profile"
-            className="w-[80%] h-auto rounded-full object-cover 
+            className="lg:w-[80%] w-[90%]  h-auto rounded-full object-cover 
          
         shadow-[0_0_40px_rgba(59,130,246,0.7)]  "
           />
