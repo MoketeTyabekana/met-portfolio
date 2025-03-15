@@ -12,7 +12,7 @@ const Contact = () => {
 
       <div className=" lg:flex lg:justify-between flex-row justify-center   items-center">
         <div className="lg:text-xl text-lg  bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-800/20 text-white  flex flex-col text-center gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] px-10 py-2">
-          <h1>emtyabekana@gmail.com</h1>
+          <a href="mailto:emtyabekana@gmail.com"><h1>emtyabekana@gmail.com</h1></a>
         </div>
 
         <div className="flex lg:space-x-10 justify-between mt-8 ">
