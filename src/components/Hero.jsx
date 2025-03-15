@@ -29,7 +29,7 @@ const Hero =() =>{
          
          
          
-          <div className="flex space-x-10 mt-8 lg:w-fit w-full justify-center">
+          <div className="flex space-x-4 mt-8 lg:w-fit w-full justify-center">
             <a href="https://web.facebook.com/kayno.Eli.mokete/" target="blank" className="text-white lg:hover:text-gray-400">
               <FaFacebookF size={24} />
             </a>
@@ -54,7 +54,7 @@ const Hero =() =>{
           <img
             src={mokete}
             alt="Profile"
-            className="lg:w-[100%] w-[90%] h-auto rounded-full object-cover 
+            className="lg:w-[80%] w-[90%]  h-auto rounded-full object-cover 
          
         shadow-[0_0_40px_rgba(59,130,246,0.7)]  "
           />
