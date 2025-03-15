@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="h-auto flex flex-col gap-10 bg-gray-900 text-white  p-16"
+      className="h-auto flex flex-col gap-10 bg-gray-900 text-white p-4  lg:p-16"
     >
       <h2 className="text-3xl font-semibold">Projects</h2>
 
