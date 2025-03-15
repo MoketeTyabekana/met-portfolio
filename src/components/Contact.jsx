@@ -17,56 +17,54 @@ const Contact = () => {
     >
       <h2 className=" text-xl lg:text-3xl font-semibold">Contact</h2>
 
-      <div className=" lg:flex lg:justify-between flex-row lg:items-center">
+      <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center">
         <a
           href="mailto:emtyabekana@gmail.com"
-          className="lg:text-xl text-lg  bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-800/20 text-white  flex flex-col text-center  lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] px-10 py-2"
+          className="lg:text-xl text-lg bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-800/20 text-white flex flex-col text-center lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] px-10 py-2 mb-4 lg:mb-0"
         >
-          <a href="mailto:emtyabekana@gmail.com">emtyabekana@gmail.com</a>
+          emtyabekana@gmail.com
         </a>
 
-        <div className="flex lg:space-x-10 justify-between  mt-8 ">
+        <div className="flex justify-between space-x-4 lg:space-x-10">
           <a
             href="https://www.linkedin.com/in/mokete-elias-tyabekana-88a22a143/"
             target="blank"
-            className=" bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-800/20 text-white  flex flex-col  lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] p-2"
+            className="bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-800/20 text-white flex flex-col lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] p-2"
           >
             <FaLinkedinIn size={24} />
           </a>
           <a
             href="https://github.com/MoketeTyabekana/"
             target="blank"
-            className=" bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-800/20 text-white   lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] p-2"
+            className="bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-800/20 text-white lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] p-2"
           >
             <FaGithub size={24} />
           </a>
           <a
             href="https://web.facebook.com/kayno.Eli.mokete/"
             target="blank"
-            className=" bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-800/20 text-white  lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] p-2"
+            className="bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-800/20 text-white lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] p-2"
           >
             <FaFacebookF size={24} />
           </a>
           <a
             href="https://x.com/mokete__"
             target="blank"
-            className=" bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-800/20 text-white   lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] p-2"
+            className="bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-800/20 text-white lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] p-2"
           >
             <FaTwitter size={24} />
           </a>
           <a
             href="https://www.instagram.com/eli.mokete/"
             target="blank"
-            className=" bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-800/20 text-white  lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] p-2"
+            className="bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-800/20 text-white lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] p-2"
           >
             <FaInstagram size={24} />
           </a>
-
           <a
             href="https://wa.me/27671134716"
             target="blank"
-            className=" bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-800/20 
-text-white  lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] p-2"
+            className="bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-800/20 text-white lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] p-2"
           >
             <FaWhatsapp size={24} />
           </a>
