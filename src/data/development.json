@@ -1,43 +1,25 @@
 {
-    "projects": [
-        {
-            "title": "BDH Website",
-            "image": "/assets/bdh.png",
-            "link": "https://botshabelohub.co.za/"
-        },
-        {
-            "title": "Movie Dashboard",
-            "image": "/assets/emt.png",
-            "link": "https://emtmovies.vercel.app/"
-        },
-        
-        {
-            "title": "Personal Profile",
-            "image": "/assets/met.png",
-            "link": "https://met-portfolio.vercel.app/"
-        },
-        {
-            "title": "Weather App",
-            "image": "/assets/weather.png",
-            "link": "https://weatherapp-ochre-three.vercel.app/"
-        },
-        {
-            "title": "BDH Website",
-            "image": "/assets/bdh.png",
-            "link": "https://botshabelohub.co.za/"
-        },
-        {
-            "title": "Movie Dashboard",
-            "image": "/assets/emt.png",
-            "link": "https://emtmovies.vercel.app/"
-        }
-     
-     
-     
-     
-     
-     
+  "projects": [
+    {
+      "title": "BDH Website",
+      "image": "/assets/bdh.png",
+      "link": "https://botshabelohub.co.za/"
+    },
+    {
+      "title": "Movie Dashboard",
+      "image": "/assets/emt.png",
+      "link": "https://emtmovies.vercel.app/"
+    },
 
-
-    ]
+    {
+      "title": "Personal Profile",
+      "image": "/assets/met.png",
+      "link": "https://met-portfolio.vercel.app/"
+    },
+    {
+      "title": "Weather App",
+      "image": "/assets/weather.png",
+      "link": "https://weatherapp-ochre-three.vercel.app/"
+    }
+  ]
 }
