@@ -13,46 +13,46 @@ const Hero =() =>{
     return(
         <div
         id="home"
-        className="h-screen flex items-center justify-between bg-gray-900 text-white px-16"
+        className="lg:h-full h-full grid lg:grid-cols-2 gap-4 items-center justify-centers bg-gray-900 text-white lg:p-16 px-6 pt-40"
       >
-        <div className="flex flex-col items-start w-1/2">
-          <h1 className="text-4xl font-bold mb-4">
+        <div className="flex flex-col lg:justify-start lg:text-start text-center">
+          <h1 className="lg:text-4xl text-2xl font-bold mb-4">
             <span className=" text-gray-700">MR.</span> MOKETE TYABEKANA
           </h1>
-          <p className="text-lg mb-8 max-w-3xl">
+          <p className="text-sm lg:text-xl mb-8 max-w-3xl">
             Great front-end development isn’t just about writing code—it’s about
             crafting seamless, intuitive experiences that users love. Every
             pixel, every interaction, and every animation tells a story—make it
             a masterpiece.
           </p>
-          <button className="bg-gray-950 text-white px-6 py-2 rounded hover:shadow-[0_0_5px_rgba(59,130,246,0.7)] animate-pulse">
-            Hire Me
-          </button>
-          <div className="flex space-x-10 mt-8">
-            <a href="#" className="text-white hover:text-gray-400">
+         
+         
+         
+          <div className="flex space-x-10 mt-8 lg:w-fit w-full justify-center">
+            <a href="#" className="text-white lg:hover:text-gray-400">
               <FaFacebookF size={24} />
             </a>
-            <a href="#" className="text-white hover:text-gray-400">
+            <a href="#" className="text-white lg:hover:text-gray-400">
               <FaTwitter size={24} />
             </a>
-            <a href="#" className="text-white hover:text-gray-400">
+            <a href="#" className="text-white lg:hover:text-gray-400">
               <FaInstagram size={24} />
             </a>
-            <a href="#" className="text-white hover:text-gray-400">
+            <a href="#" className="text-white lg:hover:text-gray-400">
               <FaLinkedinIn size={24} />
             </a>
-            <a href="#" className="text-white hover:text-gray-400">
+            <a href="#" className="text-white lg:hover:text-gray-400">
               <FaGithub size={24} />
             </a>
           </div>
         </div>
-        <div className="relative  w-1/2 flex justify-end">
+        <div className="relative  flex lg:justify-end justify-center  p-10 lg:py-20">
           <img
             src={mokete}
             alt="Profile"
-            className="w-[500px] h-[500px] rounded-full object-cover 
+            className="w-[80%] h-auto rounded-full object-cover 
          
-        shadow-[0_0_40px_rgba(59,130,246,0.7)] animate-pulse "
+        shadow-[0_0_40px_rgba(59,130,246,0.7)]  "
           />
         </div>
       </div>

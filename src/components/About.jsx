@@ -31,14 +31,14 @@ const About = () => {
   return (
     <section
       id="about"
-      className="h-auto  bg-gray-950  p-6 lg:p-16 flex flex-col  justify-center items-center"
+      className="h-auto  bg-gray-950  p-4 lg:p-16 flex flex-col  justify-center items-center"
     >
       <div
         className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20
-text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)]"
+text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] lg:text-start text-justify"
       >
-        <h2 className="text-3xl font-semibold">About Me</h2>
-        <p>
+        <h2 className="lg:text-3xl text-2x1 font-semibold">About Me</h2>
+        <p className="text-sm lg:text-xl">
           I’m Mokete Elias Tyabekana, a passionate Frontend Developer & UI/UX
           Designer with expertise in React, JavaScript, and Tailwind CSS,
           dedicated to building responsive and user-friendly applications. With
@@ -56,10 +56,10 @@ text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)]"
 
       <div className="  lg:grid lg:grid-cols-2 flex flex-wrap lg:gap-10 gap-4 w-full lg:mt-10 mt-4">
         <div
-          className="px-4 py-8  bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] "
+          className="px-4 py-8 w-full  bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] "
         >
-          <h2 className="text-xl font-semibold">Education</h2>
-          <div>
+          <h2 className="lg:text-3xl text-2x1  font-semibold">Education</h2>
+          <div className="text-sm lg:text-xl">
             <li>
               Diploma in Information Technology: Central University Of
               Technology
@@ -72,13 +72,13 @@ text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)]"
         </div>
 
         <div
-          className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col 
+          className="px-4 py-8 bg-gray-400 w-full rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col 
                   gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] "
         >
-          <h2 className="text-xl font-semibold">
+          <h2 className="lg:text-3xl text-2x1 font-semibold">
             Certifications / Short Courses
           </h2>
-          <div>
+          <div className="text-sm lg:text-xl">
             <li className="list-">
               Front-End Web Development Program
               <a href="" className="text-blue-400">
