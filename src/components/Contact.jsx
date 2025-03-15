@@ -17,7 +17,7 @@ const Contact = () => {
 
         <div className="flex lg:space-x-10 justify-between mt-8 ">
           <a
-           href="www.linkedin.com/in/mokete-elias-tyabekana" target="blank"
+           href="https://www.linkedin.com/in/mokete-elias-tyabekana-88a22a143/" target="blank"
             className=" bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-800/20 text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] p-2"
           >
             <FaLinkedinIn size={24} />
