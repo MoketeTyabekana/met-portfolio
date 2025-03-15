@@ -29,19 +29,19 @@ const Hero =() =>{
          
          
           <div className="flex space-x-10 mt-8 lg:w-fit w-full justify-center">
-            <a href="#" className="text-white hover:text-gray-400">
+            <a href="#" className="text-white lg:hover:text-gray-400">
               <FaFacebookF size={24} />
             </a>
-            <a href="#" className="text-white hover:text-gray-400">
+            <a href="#" className="text-white lg:hover:text-gray-400">
               <FaTwitter size={24} />
             </a>
-            <a href="#" className="text-white hover:text-gray-400">
+            <a href="#" className="text-white lg:hover:text-gray-400">
               <FaInstagram size={24} />
             </a>
-            <a href="#" className="text-white hover:text-gray-400">
+            <a href="#" className="text-white lg:hover:text-gray-400">
               <FaLinkedinIn size={24} />
             </a>
-            <a href="#" className="text-white hover:text-gray-400">
+            <a href="#" className="text-white lg:hover:text-gray-400">
               <FaGithub size={24} />
             </a>
           </div>
