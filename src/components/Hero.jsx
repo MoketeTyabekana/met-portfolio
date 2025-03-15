@@ -29,7 +29,7 @@ const Hero =() =>{
          
          
          
-          <div className="flex space-x-4 mt-8 lg:w-fit w-full justify-center">
+          <div className="flex gap-x-6 mt-8 lg:w-fit w-full justify-center">
             <a href="https://web.facebook.com/kayno.Eli.mokete/" target="blank" className="text-white lg:hover:text-gray-400">
               <FaFacebookF size={24} />
             </a>
