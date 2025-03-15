@@ -31,11 +31,11 @@ const About = () => {
   return (
     <section
       id="about"
-      className="h-auto  bg-gray-950  p-4 md:p-16 flex flex-col  justify-center items-center"
+      className="h-auto  bg-gray-950  p-6 lg:p-16 flex flex-col  justify-center items-center"
     >
       <div
         className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20
-text-white  flex flex-col gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)]"
+text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)]"
       >
         <h2 className="text-3xl font-semibold">About Me</h2>
         <p>
@@ -54,9 +54,9 @@ text-white  flex flex-col gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)]"
         </p>
       </div>
 
-      <div className="  md:grid md:grid-cols-2 sm:flex sm:flex-wrap md:gap-10 w-full md:mt-10 sm:mt-4">
+      <div className="  lg:grid lg:grid-cols-2 flex flex-wrap lg:gap-10 gap-4 w-full lg:mt-10 mt-4">
         <div
-          className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] "
+          className="px-4 py-8  bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] "
         >
           <h2 className="text-xl font-semibold">Education</h2>
           <div>
@@ -73,7 +73,7 @@ text-white  flex flex-col gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)]"
 
         <div
           className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col 
-gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] "
+                  gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] "
         >
           <h2 className="text-xl font-semibold">
             Certifications / Short Courses
@@ -125,12 +125,12 @@ gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] "
         </div>
       </div>
 
-      <div className=" w-full mt-10 px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] ">
+      <div className=" w-full lg:mt-10 mt-4 px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] ">
         <h2 className="text-xl font-semibold">Skills & Technologies</h2>
-        <div className="flex flex-row flex-wrap xl:justify-between gap-4">
+        <div className="grid grid-cols-3 lg:grid-cols-11 gap-2 lg:gap-4">
           {skills && skills.length>0 && skills.map((skill, index) => (
             <div
-              className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between gap-y-4 w-[100px] h-[120px] py-4 px-2"
+              className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between gap-y-4 py-4 px-2"
               key={index}
             >
               <span className="text-5xl"> {skill.icon}</span>
