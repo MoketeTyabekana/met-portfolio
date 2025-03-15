@@ -14,7 +14,7 @@ const Hero =() =>{
     return(
         <div
         id="home"
-        className="lg:h-full h-screen grid lg:grid-cols-2 gap-4 items-center justify-centers bg-gray-900 text-white lg:p-16 px-6 pt-40"
+        className="lg:h-full h-screen grid lg:grid-cols-2 gap-4 items-center justify-centers bg-gray-900 text-white lg:p-16 px-6 pt-20"
       >
         <div className="flex flex-col lg:justify-start lg:text-start text-center">
           <h1 className="lg:text-4xl text-2xl font-bold mb-4">
