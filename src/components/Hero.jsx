@@ -50,11 +50,11 @@ const Hero =() =>{
   </a>
           </div>
         </div>
-        <div className="relative  flex lg:justify-end justify-center  p-10 lg:py-20">
+        <div className="relative  flex lg:justify-end justify-center  p-6 lg:py-20">
           <img
             src={mokete}
             alt="Profile"
-            className="w-[80%] h-auto rounded-full object-cover 
+            className="lg:w-[100%] w-[90%] h-auto rounded-full object-cover 
          
         shadow-[0_0_40px_rgba(59,130,246,0.7)]  "
           />
