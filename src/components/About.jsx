@@ -31,7 +31,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="h-auto  bg-gray-950  p-4 md:p-16 flex flex-col gap-4 justify-center items-center"
+      className="h-auto  bg-gray-950  p-4 md:p-16 flex flex-col  justify-center items-center"
     >
       <div
         className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20
@@ -54,7 +54,7 @@ text-white  flex flex-col gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)]"
         </p>
       </div>
 
-      <div className="  md:grid md:grid-cols-2 sm:flex sm:flex-wrap md:gap-10 gap-4  w-full md:mt-10 sm:mt-4">
+      <div className="  md:grid md:grid-cols-2 sm:flex sm:flex-wrap md:gap-10 w-full md:mt-10 sm:mt-4">
         <div
           className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] "
         >
