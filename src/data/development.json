@@ -2,7 +2,7 @@
     "projects": [
         {
             "title": "BDH Website",
-            "image": "/public/assets/bdh.png",
+            "image": "/assets/bdh.png",
             "link": "https://botshabelohub.co.za/"
         },
         {
