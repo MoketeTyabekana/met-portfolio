@@ -3,23 +3,27 @@
     {
       "title": "BDH Website",
       "image": "/assets/bdh.png",
-      "link": "https://botshabelohub.co.za/"
+      "link": "https://botshabelohub.co.za/",
+      "decription": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus non metus in ornare. Vivamus vehicula blandit ultrices. In hac habitasse platea dictumst. Proin "
     },
     {
       "title": "Movie Dashboard",
       "image": "/assets/emt.png",
-      "link": "https://emtmovies.vercel.app/"
+      "link": "https://emtmovies.vercel.app/",
+            "decription": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus non metus in ornare. Vivamus vehicula blandit ultrices. In hac habitasse platea dictumst. "
     },
 
     {
       "title": "Personal Profile",
       "image": "/assets/met.png",
-      "link": "https://met-portfolio.vercel.app/"
+      "link": "https://met-portfolio.vercel.app/",
+            "decription": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus non metus in ornare. Vivamus vehicula blandit ultrices. In hac habitasse platea dictumst. "
     },
     {
       "title": "Weather App",
       "image": "/assets/weather.png",
-      "link": "https://weatherapp-ochre-three.vercel.app/"
+      "link": "https://weatherapp-ochre-three.vercel.app/",
+            "decription": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus non metus in ornare. Vivamus vehicula blandit ultrices. In hac habitasse platea dictumst. "
     }
   ]
 }
