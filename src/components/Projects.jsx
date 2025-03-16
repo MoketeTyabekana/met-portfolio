@@ -12,7 +12,7 @@ const Projects = () => {
 
       {/* Coding Projects */}
       <div className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full">
-        <h2 className="text-xl lg:text-2xl font-semibold">Font-End Development</h2>
+        <h2 className="lg:text-3xl text-2x1 font-semibold">Font-End Development</h2>
 
         <div className="grid grid-cols-2 lg:grid-cols-4  lg:justify-between gap-2  lg:gap-6">
           {projects.projects &&
@@ -59,7 +59,7 @@ const Projects = () => {
         className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 
 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
       >
-        <h2 className="text-xl lg:text-2xl font-semibold">UI/UX Design</h2>
+        <h2 className="lg:text-3xl text-2x1 font-semibold">UI/UX Design</h2>
 
         <div className="grid grid-cols-2 lg:grid-cols-4  lg:justify-between gap-2  lg:gap-6">
           {projects.projects &&
@@ -106,7 +106,7 @@ lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
         className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 
 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
       >
-        <h2 className="text-xl lg:text-2xl font-semibold">Graphic Design</h2>
+        <h2 className="lg:text-3xl text-2x1 font-semibold">Graphic Design</h2>
 
         <div className="grid grid-cols-2 lg:grid-cols-4  lg:justify-between gap-2  lg:gap-6">
           {projects.projects &&
