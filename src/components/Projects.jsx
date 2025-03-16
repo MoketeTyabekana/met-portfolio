@@ -1,5 +1,6 @@
 import React from "react";
 import projects from "../data/development.json";
+import designs from "../data/designs.json"
 import { FaArrowRight } from "react-icons/fa";
 
 const Projects = () => {
@@ -33,7 +34,7 @@ const Projects = () => {
                     target="_blank"
                     className="text-xl flex items-center justify-center gap-2 "
                   >
-                    <span className="text-sm lg:text-xl font-bold text-gray-800">
+                    <span className="text-sm lg:text-base font-bold text-gray-800 uppercase">
                       {project.title}
                     </span>{" "}
                     <FaArrowRight size={12} />
@@ -62,26 +63,26 @@ lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
         <h2 className="lg:text-3xl text-2x1 font-semibold">UI/UX Design</h2>
 
         <div className="grid grid-cols-2 lg:grid-cols-4  lg:justify-between gap-2  lg:gap-6">
-          {projects.projects &&
-            projects.projects.length > 0 &&
-            projects.projects.slice(0, 4).map((project, index) => (
+          {designs.designs &&
+            designs.designs.length > 0 &&
+            designs.designs.slice(0, 4).map((designs, index) => (
               <div
                 className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between h-auto  p-2 lg:hover:scale-105"
                 key={index}
               >
                 <img
-                  src={project.image}
+                  src={designs.image}
                   alt="project image"
-                  className="rounded"
+                  className="rounded h-40 w-full object-cover object-top"
                 />
                 <div className="flex flex-row justify-center w-full mt-4">
                   <a
-                    href={project.link}
+                    href={designs.link}
                     target="_blank"
                     className="text-xl flex items-center justify-center gap-2 "
                   >
-                    <span className="text-sm lg:text-xl font-bold text-gray-800">
-                      {project.title}
+                    <span className="text-sm lg:text-base font-bold text-gray-800 uppercase">
+                      {designs.title}
                     </span>{" "}
                     <FaArrowRight size={12} />
                   </a>
@@ -91,7 +92,7 @@ lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
         </div>
 
         {/* A condition statement to activate the view mmore button only if the array has more than 4 projects in the list */}
-        {projects.projects && projects.projects.length > 4 && (
+        {designs.designs && designs.designs.length > 4 && (
           <a
             href=""
             className="flex flex-row items-center gap-4 self-end text-gray-50 font-bold hover:text-blue-400"
@@ -127,7 +128,7 @@ lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
                     target="_blank"
                     className="text-xl flex items-center justify-center gap-2 "
                   >
-                    <span className="text-sm lg:text-xl font-bold text-gray-800">
+                    <span className="text-sm lg:text-base font-bold text-gray-800 uppercase">
                       {project.title}
                     </span>{" "}
                     <FaArrowRight size={12} />
