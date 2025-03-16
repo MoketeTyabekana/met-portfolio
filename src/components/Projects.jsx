@@ -34,7 +34,7 @@ const Projects = () => {
                     target="_blank"
                     className="text-xl flex items-center justify-center gap-2 "
                   >
-                    <span className="text-sm lg:text-base font-bold text-gray-800 uppercase">
+                    <span className="text-sm lg:text-xl font-bold text-gray-800">
                       {project.title}
                     </span>{" "}
                     <FaArrowRight size={12} />
@@ -67,13 +67,13 @@ lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
             designs.designs.length > 0 &&
             designs.designs.slice(0, 4).map((designs, index) => (
               <div
-                className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between h-auto  p-2 lg:hover:scale-105"
+                className=" text-center bg-gray-50  rounded-md text-gray-950 flex flex-col items-center justify-between h-auto  p-2 lg:hover:scale-105"
                 key={index}
               >
                 <img
                   src={designs.image}
                   alt="project image"
-                  className="rounded h-40 w-full object-cover object-top"
+                  className="rounded lg:h-40 h-2/4 w-full object-cover object-top"
                 />
                 <div className="flex flex-row justify-center w-full mt-4">
                   <a
@@ -81,7 +81,7 @@ lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
                     target="_blank"
                     className="text-xl flex items-center justify-center gap-2 "
                   >
-                    <span className="text-sm lg:text-base font-bold text-gray-800 uppercase">
+                    <span className="text-sm lg:text-xl font-bold text-gray-800">
                       {designs.title}
                     </span>{" "}
                     <FaArrowRight size={12} />
@@ -128,7 +128,7 @@ lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
                     target="_blank"
                     className="text-xl flex items-center justify-center gap-2 "
                   >
-                    <span className="text-sm lg:text-base font-bold text-gray-800 uppercase">
+                    <span className="text-sm lg:text-xl font-bold text-gray-800">
                       {project.title}
                     </span>{" "}
                     <FaArrowRight size={12} />
