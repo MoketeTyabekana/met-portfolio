@@ -15,7 +15,7 @@ const Projects = () => {
       <div className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full">
         <h2 className="lg:text-3xl text-2x1 font-semibold">Font-End Development</h2>
 
-        <div className="grid grid-cols-2 lg:grid-cols-4  lg:justify-between gap-2  lg:gap-6">
+        <div className="grid grid-cols-2 lg:grid-cols-4 lg:justify-between gap-2 lg:gap-6">
           {projects.projects &&
             projects.projects.length > 0 &&
             projects.projects.slice(0, 4).map((project, index) => (
@@ -26,7 +26,7 @@ const Projects = () => {
                 <img
                   src={project.image}
                   alt="project image"
-                  className="rounded"
+                  className="rounded w-full"
                 />
                 <div className="flex flex-row justify-center w-full mt-4">
                   <a
@@ -73,7 +73,7 @@ lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
                 <img
                   src={designs.image}
                   alt="project image"
-                  className="rounded lg:h-40 h-2/4 w-full object-cover object-top"
+                  className="rounded h-3/5 w-full object-cover object-top"
                 />
                 <div className="flex flex-row justify-center w-full mt-4">
                   <a
