@@ -68,10 +68,14 @@ const Hero = () => {
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 1, delay: 0.3 }}
       >
-        <img
+        <motion.img
           src={mokete}
           alt="Profile"
           className="lg:w-[80%] w-[90%] h-auto rounded-full object-cover shadow-[0_0_40px_rgba(59,130,246,0.7)]"
+          initial={{ y: 50, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
         />
       </motion.div>
     </motion.div>
