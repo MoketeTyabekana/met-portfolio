@@ -31,7 +31,7 @@ const Projects = () => {
                   className="rounded"
                 />
                 <div className="flex flex-row justify-between items-center w-full mt-4">
-                  <a href={project.link} className="flex justify-start gap-2 items-center">
+                  <a href={project.link}  target="_blank" className="flex justify-start gap-2 items-center">
                     <span className="text-sm lg:text-lg font-semibold text-gray-800">
                       {project.title}
                     </span>
