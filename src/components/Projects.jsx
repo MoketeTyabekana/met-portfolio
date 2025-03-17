@@ -34,7 +34,7 @@ const Projects = () => {
                     target="_blank"
                     className="text-xl flex items-center justify-center  gap-2 "
                   >
-                    <span className="text-sm lg:text-xl font-bold text-gray-800">
+                    <span className="text-sm lg:text-lg font-semibold text-gray-800">
                       {project.title}
                     </span>{" "}
                     <FaGithub size={16} className="text-gray-800" />
@@ -86,7 +86,7 @@ lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
             target="_blank"
             className="text-xl flex items-center justify-center gap-2"
           >
-            <span className="text-sm lg:text-xl font-bold text-gray-800">
+            <span className="text-sm lg:text-lg font-semibold text-gray-800">
               {design.title}
             </span>
             <FaFigma size={16} className="text-gray-800" />
