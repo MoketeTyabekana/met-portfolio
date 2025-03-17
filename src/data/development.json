@@ -4,29 +4,31 @@
       "title": "BDH Website",
       "image": "/assets/bdh.png",
       "link": "https://botshabelohub.co.za/",
-      "decription": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus non metus in ornare. Vivamus vehicula blandit ultrices. In hac habitasse platea dictumst. Proin "
+      "decription": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus non metus in ornare. Vivamus vehicula blandit ultrices. In hac habitasse platea dictumst. Proin ",
+      "github": "https://github.com/MoketeTyabekana/bdh_website.git"
     },
     {
       "title": "Movie Dashboard",
       "image": "/assets/emt.png",
       "link": "https://emtmovies.vercel.app/",
-            "decription": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus non metus in ornare. Vivamus vehicula blandit ultrices. In hac habitasse platea dictumst. "
+      "decription": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus non metus in ornare. Vivamus vehicula blandit ultrices. In hac habitasse platea dictumst. ",
+      "github": "https://github.com/MoketeTyabekana/movie-database.git"
+    
     },
 
     {
       "title": "Personal Profile",
       "image": "/assets/met.png",
       "link": "https://met-portfolio.vercel.app/",
-            "decription": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus non metus in ornare. Vivamus vehicula blandit ultrices. In hac habitasse platea dictumst. "
+      "decription": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus non metus in ornare. Vivamus vehicula blandit ultrices. In hac habitasse platea dictumst. ",
+      "github": "https://github.com/MoketeTyabekana/met-portfolio.git"
     },
     {
       "title": "Weather App",
       "image": "/assets/weather.png",
       "link": "https://weatherapp-ochre-three.vercel.app/",
-            "decription": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus non metus in ornare. Vivamus vehicula blandit ultrices. In hac habitasse platea dictumst. "
+      "decription": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus non metus in ornare. Vivamus vehicula blandit ultrices. In hac habitasse platea dictumst. ",
+      "github": "https://github.com/MoketeTyabekana/react-hooks.git"
     }
   ]
 }
-
-
-
