@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import mokete from "../assets/mokete.jpg";
+import FloatingSymbols from "../data/FloatingSymbols";
 import {
   FaFacebookF,
   FaTwitter,
@@ -19,6 +20,7 @@ const Hero = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
+       <FloatingSymbols />
       <motion.div 
         className="flex flex-col lg:justify-start lg:text-start text-center"
         initial={{ x: -50, opacity: 0 }}
@@ -71,7 +73,7 @@ const Hero = () => {
         <motion.img
           src={mokete}
           alt="Profile"
-          className="lg:w-[80%] w-[90%] h-auto rounded-full object-cover shadow-[0_0_40px_rgba(59,130,246,0.7)]"
+          className="lg:w-[80%] w-[90%] h-auto rounded-full object-cover shadow-[0_0_40px_rgba(59,130,246,0.5)]"
           initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true }}
