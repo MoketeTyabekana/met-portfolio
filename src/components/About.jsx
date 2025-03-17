@@ -126,7 +126,7 @@ text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] 
       </div>
 
       <div className=" w-full lg:mt-10 mt-4 px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] ">
-        <h2 className="text-xl font-semibold">Skills & Technologies</h2>
+      <h2 className="lg:text-3xl text-2x1 font-semibold">Skills & Technologies</h2>
         <div className="grid grid-cols-3 lg:grid-cols-11 gap-2 lg:gap-4">
           {skills && skills.length>0 && skills.map((skill, index) => (
             <div
