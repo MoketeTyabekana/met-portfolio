@@ -56,22 +56,22 @@ const App = () => {
           }`}
         >
           <li className="text-left">
-            <a href="#home" className="block py-2 px-4 hover:underline">
+            <a href="#home" className="block py-2 px-4 lg:hover:underline">
               Home
             </a>
           </li>
           <li className="text-left">
-            <a href="#about" className="block py-2 px-4 hover:underline">
+            <a href="#about" className="block py-2 px-4 lg:hover:underline">
               About
             </a>
           </li>
           <li className="text-left">
-            <a href="#projects" className="block py-2 px-4 hover:underline">
+            <a href="#projects" className="block py-2 px-4 lg:hover:underline">
               Projects
             </a>
           </li>
           <li className="text-left">
-            <a href="#contact" className="block py-2 px-4 hover:underline">
+            <a href="#contact" className="block py-2 px-4 lg:hover:underline  ">
               Contact
             </a>
           </li>
