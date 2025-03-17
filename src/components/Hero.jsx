@@ -28,7 +28,7 @@ const Hero = () => {
         <h1 className="lg:text-4xl text-2xl font-bold mb-4">
           <span className="text-gray-700">MR.</span> MOKETE TYABEKANA
         </h1>
-        <p className="text-sm lg:text-xl mb-8 max-w-3xl">
+        <p className="text-sm lg:text-xl mb-8 ">
           Great front-end development isn’t just about writing code—it’s about
           crafting seamless, intuitive experiences that users love. Every
           pixel, every interaction, and every animation tells a story—make it
