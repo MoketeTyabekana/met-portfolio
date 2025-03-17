@@ -134,7 +134,7 @@ text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] 
               key={index}
             >
               <span className="text-5xl"> {skill.icon}</span>
-              <p className="text-sm">{skill.name}</p>
+              <p className="text-sm font-semibold">{skill.name}</p>
             </div>
           ))}
         </div>

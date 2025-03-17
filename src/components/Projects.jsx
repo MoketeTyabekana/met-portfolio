@@ -1,7 +1,7 @@
 import React from "react";
 import projects from "../data/development.json";
 import designs from "../data/designs.json"
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight,FaFigma,FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -32,12 +32,12 @@ const Projects = () => {
                   <a
                     href={project.link}
                     target="_blank"
-                    className="text-xl flex items-center justify-center gap-2 "
+                    className="text-xl flex items-center justify-center  gap-2 "
                   >
-                    <span className="text-sm lg:text-xl font-bold text-gray-800">
+                    <span className="text-sm lg:text-lg font-semibold text-gray-800">
                       {project.title}
                     </span>{" "}
-                    <FaArrowRight size={12} />
+                    <FaGithub size={16} className="text-gray-800" />
                   </a>
                 </div>
               </div>
@@ -80,16 +80,16 @@ lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
         </div>
 
         {/* Title link */}
-        <div className="flex flex-row justify-center w-full">
+        <div className="flex flex-row justify-center items-center w-full">
           <a
             href={design.link}
             target="_blank"
             className="text-xl flex items-center justify-center gap-2"
           >
-            <span className="text-sm lg:text-xl font-bold text-gray-800">
+            <span className="text-sm lg:text-lg font-semibold text-gray-800">
               {design.title}
             </span>
-            <FaArrowRight size={12} />
+            <FaFigma size={16} className="text-gray-800" />
           </a>
         </div>
       </div>
