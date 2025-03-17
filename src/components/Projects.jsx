@@ -31,11 +31,11 @@ const Projects = () => {
                   className="rounded"
                 />
                 <div className="flex flex-row justify-between items-center w-full mt-4">
-                  <a href={project.link}  target="_blank" className="flex justify-start gap-2 items-center">
+                  <a href={project.link}  target="_blank" className="flex justify-start gap-1 items-center">
                     <span className="text-sm lg:text-lg font-semibold text-gray-800">
                       {project.title}
                     </span>
-                    <span className="text-gray-800"><FaArrowRight /></span>
+                    <span className="text-gray-800  scale-75"><FaArrowRight /></span>
                   </a>
 
                   <a
