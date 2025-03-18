@@ -87,13 +87,6 @@ text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] 
               </a>
             </li>
             <li>
-              National Senior Certificate
-              <a href="" className="text-blue-400">
-                {" "}
-                [freeCodeCamp]
-              </a>
-            </li>
-            <li>
               Web Programming Foundations
               <a href="" className="text-blue-400">
                 {" "}
