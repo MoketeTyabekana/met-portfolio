@@ -79,7 +79,7 @@ text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] 
             Certifications / Short Courses
           </h2>
           <div className="text-sm lg:text-xl">
-            <li className="list-">
+            <li >
               Front-End Web Development
               <a href="" className="text-blue-400">
                 {" "}
