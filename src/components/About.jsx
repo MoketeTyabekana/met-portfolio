@@ -80,7 +80,7 @@ text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] 
           </h2>
           <div className="text-sm lg:text-xl">
             <li className="list-">
-              Front-End Web Development Program
+              Front-End Web Development
               <a href="" className="text-blue-400">
                 {" "}
                 [ALX Africa]

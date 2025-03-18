@@ -36,7 +36,7 @@ const App = () => {
       {/* Navigation Bar */}
       <nav className="fixed top-0 left-0 w-full  text-white p-4 shadow-md z-50 flex justify-between items-center lg:px-16 lg:bg-gray-400 bg-gray-800 bg-clip-padding lg:backdrop-filter backdrop-blur-sm lg:bg-opacity-10">
       <button 
-  className="bg-gray-900 text-white px-10 py-2 rounded-md font-semibold lg:hover:bg-gray-950 lg:shadow-[0_0_10px_rgba(100,130,246,0.7)] lg:animate-pulse"
+  className="bg-gray-900 text-white px-10 py-2 rounded-md font-semibold lg:hover:bg-gray-950 lg:shadow-[0_0_10px_rgba(100,130,246,0.7)] shadow-[0_0_5px_rgba(100,130,246,0.7)] animate-pulse"
   onClick={() => window.open("https://drive.google.com/file/d/1fMriqrijHa1ogmLBn-MqMmvsD2qnQar6/view", "_blank")}
 >
   View Resume
