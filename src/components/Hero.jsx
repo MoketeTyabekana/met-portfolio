@@ -16,7 +16,7 @@ const Hero = () => {
   return (
     <motion.div
       id="home"
-      className="lg:h-full h-screen grid lg:grid-cols-2 gap-4 items-center justify-center bg-gray-900 text-white lg:p-16 px-6 pt-20"
+      className="lg:h-full h-screen grid lg:grid-cols-2 gap-4 items-center  bg-gray-900 text-white lg:p-16 px-6 pt-20"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
@@ -39,7 +39,7 @@ const Hero = () => {
         </p>
 
         <motion.div
-          className="flex gap-x-6 mt-8 lg:w-fit w-full justify-center"
+          className="flex gap-x-6 mt-8 lg:w-fit w-full lg:justify-start justify-center"
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 0.5 }}
@@ -88,17 +88,16 @@ const Hero = () => {
           </a>
         </motion.div>
 
-        <motion.div className=" mt-10 h-fit w-fit flex items-center gap-3 lg:hover:text-gray-400"
-         initial={{ y: 20, opacity: 0 }}
-         animate={{ y: 0, opacity: 1 }}
-         transition={{ duration: 1, delay: 0.5 }}>
-          <FaPlay
-            size={24}
-            className=" w-fit h-fit p-2 border-2 border-solid border-white rounded-full"
-          />
-
-          <p className="text-sm lg:text-xl ">Video Intro</p>
-        </motion.div>
+        <motion.div className=" flex items-center gap-x-2 mt-8 lg:w-fit w-full lg:justify-start justify-center hover:text-gray-400"
+   initial={{ y: 20, opacity: 0 }}
+   animate={{ y: 0, opacity: 1 }}
+   transition={{ duration: 1, delay: 0.5 }}>
+    <FaPlay
+      size={16}
+      className="  w-fit h-fit p-2 border-4 border-solid border-white rounded-full lg:text-start text-center"
+    />
+    <p className="text-sm lg:text-xl ">Video Intro</p>
+  </motion.div>
       </motion.div>
 
       <motion.div
@@ -110,7 +109,7 @@ const Hero = () => {
         <motion.img
           src={mokete}
           alt="Profile"
-          className="lg:w-[80%] w-[90%] h-auto rounded-full object-cover shadow-[0_0_40px_rgba(59,130,246,0.5)]"
+          className="lg:w-[80%] w-[85%] h-auto rounded-full object-cover shadow-[0_0_40px_rgba(59,130,246,0.5)]"
           initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true }}
