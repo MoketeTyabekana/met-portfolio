@@ -88,7 +88,7 @@ const Hero = () => {
           </a>
         </motion.div>
 
-        <motion.div className=" flex items-center gap-x-2 mt-8 lg:w-fit w-full lg:justify-start justify-center hover:text-gray-400"
+        <motion.div className=" flex items-center gap-x-2 mt-8 lg:w-fit w-full lg:justify-start justify-center lg:hover:text-gray-400 "
    initial={{ y: 20, opacity: 0 }}
    animate={{ y: 0, opacity: 1 }}
    transition={{ duration: 1, delay: 0.5 }}>
