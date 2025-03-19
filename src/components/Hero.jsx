@@ -88,14 +88,17 @@ const Hero = () => {
           </a>
         </motion.div>
 
-        <a href=""  className=" mt-10 h-fit w-fit flex items-center gap-3 lg:hover:text-gray-400">
+        <motion.div className=" mt-10 h-fit w-fit flex items-center gap-3 lg:hover:text-gray-400"
+         initial={{ y: 20, opacity: 0 }}
+         animate={{ y: 0, opacity: 1 }}
+         transition={{ duration: 1, delay: 0.5 }}>
           <FaPlay
             size={24}
             className=" w-fit h-fit p-2 border-2 border-solid border-white rounded-full"
           />
 
           <p className="text-sm lg:text-xl ">Video Intro</p>
-        </a>
+        </motion.div>
       </motion.div>
 
       <motion.div
