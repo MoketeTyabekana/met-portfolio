@@ -17,7 +17,7 @@ const Contact = () => {
     >
       <h2 className=" text-xl lg:text-3xl font-semibold">Contact</h2>
 
-      <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center">
+      <div className="flex flex-col lg:flex-row md:justify-between lg:items-center">
         <a
           href="mailto:emtyabekana@gmail.com"
           className="lg:text-xl text-lg bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-800/20 text-white flex flex-col text-center lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] px-10 py-2 mb-4 lg:mb-0"
