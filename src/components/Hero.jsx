@@ -87,17 +87,21 @@ const Hero = () => {
             <FaWhatsapp size={24} />
           </a>
         </motion.div>
+        {/* 
 
-        <motion.div className=" flex items-center gap-x-2 mt-8 lg:w-fit w-full lg:justify-start justify-center lg:hover:text-gray-400 "
-   initial={{ y: 20, opacity: 0 }}
-   animate={{ y: 0, opacity: 1 }}
-   transition={{ duration: 1, delay: 0.5 }}>
+  <motion.div
+    className=" flex items-center gap-x-2 mt-8 lg:w-fit w-full lg:justify-start justify-center lg:hover:text-gray-400 "
+    initial={{ y: 20, opacity: 0 }}
+    animate={{ y: 0, opacity: 1 }}
+    transition={{ duration: 1, delay: 0.5 }}
+  >
     <FaPlay
       size={16}
       className="  w-fit h-fit p-2 border-4 border-solid border-white rounded-full lg:text-start text-center"
     />
     <p className="text-sm lg:text-xl ">Video Intro</p>
   </motion.div>
+*/}
       </motion.div>
 
       <motion.div
