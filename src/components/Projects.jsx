@@ -17,7 +17,7 @@ const Projects = () => {
           Font-End Development
         </h2>
 
-        <div className="grid grid-cols-1 lg:grid-cols-4  lg:justify-between gap-2  lg:gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  lg:justify-between gap-2  lg:gap-6">
           {projects.projects &&
             projects.projects.length > 0 &&
             projects.projects.slice(0, 4).map((project, index) => (
@@ -68,7 +68,7 @@ lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
       >
         <h2 className="lg:text-3xl text-2x1 font-semibold">UI/UX Design</h2>
 
-        <div className="grid grid-cols-1 lg:grid-cols-4 lg:justify-between gap-2 lg:gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 lg:justify-between gap-2 lg:gap-6">
           {designs.designs &&
             designs.designs.length > 0 &&
             designs.designs.slice(0, 4).map((design, index) => (
