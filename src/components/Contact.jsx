@@ -25,7 +25,7 @@ const Contact = () => {
           emtyabekana@gmail.com
         </a>
 
-        <div className="flex justify-around space-x-4 lg:space-x-10">
+        <div className="flex justify-around md:justify-center space-x-4 lg:space-x-10">
           <a
             href="https://www.linkedin.com/in/mokete-elias-tyabekana-88a22a143/"
             target="blank"
