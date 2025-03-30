@@ -22,7 +22,7 @@ const Projects = () => {
             projects.projects.length > 0 &&
             projects.projects.slice(0, 4).map((project, index) => (
               <div
-                className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between  h-auto  p-2 lg:hover:scale-105"
+                className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between  h-auto  p-2 lg:hover:scale-105 ease-in-out duration-300 "
                 key={index}
               >
                 <img
@@ -75,7 +75,7 @@ lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
             designs.designs.length > 0 &&
             designs.designs.slice(0, 4).map((design, index) => (
               <div
-                className="text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center h-auto p-2 lg:hover:scale-105 gap-4"
+                className="text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center h-auto p-2 lg:hover:scale-105 gap-4 ease-in-out duration-300"
                 key={index}
               >
                 {/* Image wrapper to control aspect ratio */}
