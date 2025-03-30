@@ -56,12 +56,12 @@ const App = () => {
           </button>
         </div>
         <ul
-          className={`md:flex flex-col md:flex-row md:space-x-6 absolute md:relative top-16 left-0 w-full md:w-auto md:top-0 bg-gray-900 md:bg-transparent p-4 md:p-0 ${
+          className={`md:flex flex-col md:flex-row md:space-x-6 absolute md:relative top-16 left-0 w-full md:w-auto md:top-0 bg-gray-800 md:bg-transparent border-gray-400/10 border-2 md:border-none p-4 md:p-0 ${
             isOpen ? "block" : "hidden"
           }`}
         >
           <li className="text-left">
-            <a href="#home" className="block py-2 px-4 lg:hover:underline">
+            <a href="#home" className="block py-2 px-4 lg:hover:underline  ">
               Home
             </a>
           </li>
@@ -71,12 +71,12 @@ const App = () => {
             </a>
           </li>
           <li className="text-left">
-            <a href="#projects" className="block py-2 px-4 lg:hover:underline">
+            <a href="#projects" className="block py-2 px-4 lg:hover:underline ">
               Projects
             </a>
           </li>
           <li className="text-left">
-            <a href="#contact" className="block py-2 px-4 lg:hover:underline  ">
+            <a href="#contact" className="block py-2 px-4 lg:hover:underline ">
               Contact
             </a>
           </li>
