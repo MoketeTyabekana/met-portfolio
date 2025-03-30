@@ -34,7 +34,7 @@ const Projects = () => {
                 <p className="text-xs text-start text-gray-800 mt-2 p-2 bg-gray-100 rounded-sm">{project.decription}</p>
                 <div className="flex flex-row justify-between items-center w-full mt-4">
                   <a href={project.link}  target="_blank" className="flex justify-start gap-1 items-center">
-                    <span className="text-sm lg:text-lg font-semibold text-gray-800">
+                    <span className="text-sm lg:text-md font-semibold text-gray-800 uppercase">
                       {project.title}
                     </span>
                     <span className="text-gray-800  scale-75"><FaArrowRight /></span>
@@ -89,7 +89,7 @@ lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
 
                 {/* Title link */}
                 <div className="flex flex-row justify-between items-center w-full">
-                  <span className="text-sm lg:text-lg font-semibold text-gray-800">
+                  <span className="text-sm lg:text-md font-semibold text-gray-800 uppercase">
                     {design.title}
                   </span>
 
