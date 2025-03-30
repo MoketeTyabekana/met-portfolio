@@ -30,6 +30,8 @@ const Projects = () => {
                   alt="project image"
                   className="rounded"
                 />
+
+                <p className="text-xs text-start text-gray-800 mt-2 p-2 bg-gray-100 rounded-sm">{project.decription}</p>
                 <div className="flex flex-row justify-between items-center w-full mt-4">
                   <a href={project.link}  target="_blank" className="flex justify-start gap-1 items-center">
                     <span className="text-sm lg:text-lg font-semibold text-gray-800">

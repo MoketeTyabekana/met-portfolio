@@ -4,14 +4,14 @@
       "title": "BDH Website",
       "image": "/assets/bdh.png",
       "link": "https://botshabelohub.co.za/",
-      "decription": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus non metus in ornare. Vivamus vehicula blandit ultrices. In hac habitasse platea dictumst. Proin ",
+      "decription": "A responsive website for Botshabelo Digital Hub, built using HTML, CSS, and JavaScript. This platform serves as a digital presence for the hub, providing information about its services and initiatives.",
       "github": "https://github.com/MoketeTyabekana/bdh_website.git"
     },
     {
       "title": "Movie Dashboard",
       "image": "/assets/emt.png",
       "link": "https://emtmovies.vercel.app/",
-      "decription": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus non metus in ornare. Vivamus vehicula blandit ultrices. In hac habitasse platea dictumst. ",
+      "decription": " A dynamic movie dashboard web application developed using React, Tailwind CSS, JavaScript, and the OMDb API. This application allows users to search for movies, view detailed information, and explore trending films.",
       "github": "https://github.com/MoketeTyabekana/movie-database.git"
     
     },
@@ -20,14 +20,14 @@
       "title": "Personal Profile",
       "image": "/assets/met.png",
       "link": "https://met-portfolio.vercel.app/",
-      "decription": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus non metus in ornare. Vivamus vehicula blandit ultrices. In hac habitasse platea dictumst. ",
+      "decription": "A developer portfolio website designed with React, Tailwind CSS, and JavaScript. This platform showcases my technical skills, projects, and professional experience in a visually appealing and user-friendly manner.",
       "github": "https://github.com/MoketeTyabekana/met-portfolio.git"
     },
     {
       "title": "Weather App",
       "image": "/assets/weather.png",
       "link": "https://weatherapp-ochre-three.vercel.app/",
-      "decription": "  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dapibus non metus in ornare. Vivamus vehicula blandit ultrices. In hac habitasse platea dictumst. ",
+      "decription": " A web-based weather application built with React, Tailwind CSS, JavaScript, and the OpenWeather API. This app provides real-time weather updates, including temperature, humidity, and forecasts based on user input.",
       "github": "https://github.com/MoketeTyabekana/react-hooks.git"
     }
   ]
