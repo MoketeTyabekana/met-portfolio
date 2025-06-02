@@ -81,13 +81,6 @@ const Hero = () => {
           >
             <FaGithub size={24} />
           </a>
-          <a
-            href="https://wa.me/27671134716"
-            target="blank"
-            className="text-white lg:hover:text-gray-400"
-          >
-            <FaWhatsapp size={24} />
-          </a>
         </motion.div>
 
         {/* Play Button */}

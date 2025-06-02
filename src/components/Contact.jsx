@@ -61,13 +61,6 @@ const Contact = () => {
           >
             <FaInstagram size={24} />
           </a>
-          <a
-            href="https://wa.me/27671134716"
-            target="blank"
-            className="bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-800/20 text-white lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] p-2"
-          >
-            <FaWhatsapp size={24} />
-          </a>
         </div>
       </div>
     </section>
