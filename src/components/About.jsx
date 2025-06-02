@@ -15,29 +15,70 @@ import {
 
 const About = () => {
   const skills = [
-    { name: "HTML", icon: <SiHtml5 /> },
-    { name: "CSS", icon: <SiCss3 /> },
-    { name: "JavaScript", icon: <SiJavascript /> },
-    { name: "React", icon: <SiReact /> },
-    { name: "Tailwind CSS", icon: <SiTailwindcss /> },
-    { name: "Bootstrap", icon: <SiBootstrap /> },
-    { name: "Git", icon: <SiGit /> },
-    { name: "Figma", icon: <SiFigma /> },
-    { name: "Photoshop ", icon: <SiAdobephotoshop /> },
-    { name: "XD", icon: <SiAdobexd /> },
-    { name: "Illustrator", icon: <SiAdobeillustrator /> },
+    {
+      name: "HTML",
+      icon: <SiHtml5 />,
+      link: "https://www.youtube.com/watch?v=HcOc7P5BMi4",
+    },
+    {
+      name: "CSS",
+      icon: <SiCss3 />,
+      link: "https://www.youtube.com/watch?v=ESnrn1kAD4E",
+    },
+    {
+      name: "JavaScript",
+      icon: <SiJavascript />,
+      link: "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+    },
+    {
+      name: "React",
+      icon: <SiReact />,
+      link: "https://www.youtube.com/watch?v=SqcY0GlETPk",
+    },
+    {
+      name: "Tailwind CSS",
+      icon: <SiTailwindcss />,
+      link: "https://www.youtube.com/watch?v=ft30zcMlFao",
+    },
+    {
+      name: "Bootstrap",
+      icon: <SiBootstrap />,
+      link: "https://www.youtube.com/watch?v=Jyvffr3aCp0",
+    },
+    {
+      name: "Git",
+      icon: <SiGit />,
+      link: "https://www.youtube.com/watch?v=RGOj5yH7evk",
+    },
+    {
+      name: "Figma",
+      icon: <SiFigma />,
+      link: "https://www.youtube.com/watch?v=jwCmIBJ8Jtc",
+    },
+    {
+      name: "Photoshop",
+      icon: <SiAdobephotoshop />,
+      link: "https://www.youtube.com/watch?v=OjRqZiAgoHo",
+    },
+    {
+      name: "XD",
+      icon: <SiAdobexd />,
+      link: "https://www.youtube.com/watch?v=68w2VwalD5w",
+    },
+    {
+      name: "Illustrator",
+      icon: <SiAdobeillustrator />,
+      link: "https://www.youtube.com/watch?v=Ib8UBwu3yGA",
+    },
   ];
 
   return (
     <section
       id="about"
-      className="h-auto  bg-gray-950  p-4 lg:p-16 flex flex-col  justify-center items-center"
+      className="h-auto bg-gray-950 p-4 lg:p-16 flex flex-col justify-center items-center"
     >
-      <div
-        className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20
-text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] lg:text-start text-justify"
-      >
-        <h2 className="lg:text-3xl text-2x1 font-semibold">About Me</h2>
+      <div className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] lg:text-start text-justify">
+        <h2 className="lg:text-3xl text-2xl font-semibold">About Me</h2>
         <p className="text-sm lg:text-xl">
           I’m Mokete Elias Tyabekana, a passionate Frontend Developer & UI/UX
           Designer with expertise in React, JavaScript, and Tailwind CSS,
@@ -54,26 +95,23 @@ text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] 
         </p>
       </div>
 
-      <div className="  lg:grid lg:grid-cols-2 flex flex-wrap lg:gap-10 gap-4 w-full lg:mt-10 mt-4">
-        <div className="px-4 py-8 w-full  bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] ">
-          <h2 className="lg:text-3xl text-2x1  font-semibold">Education</h2>
+      <div className="lg:grid lg:grid-cols-2 flex flex-wrap lg:gap-10 gap-4 w-full lg:mt-10 mt-4">
+        <div className="px-4 py-8 w-full bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)]">
+          <h2 className="lg:text-3xl text-2xl font-semibold">Education</h2>
           <div className="text-sm lg:text-xl">
             <li>
               Diploma in Information Technology: Central University Of
               Technology
             </li>
             <li>
-              National Senior Certificate [Grade 12/Matric] : Kagisho Secondary
-              Scchool
+              National Senior Certificate [Grade 12/Matric]: Kagisho Secondary
+              School
             </li>
           </div>
         </div>
 
-        <div
-          className="px-4 py-8 bg-gray-400 w-full rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col 
-                  gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] "
-        >
-          <h2 className="lg:text-3xl text-2x1 font-semibold">
+        <div className="px-4 py-8 bg-gray-400 w-full rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)]">
+          <h2 className="lg:text-3xl text-2xl font-semibold">
             Certifications / Short Courses
           </h2>
           <div className="text-sm lg:text-xl">
@@ -116,21 +154,24 @@ text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] 
         </div>
       </div>
 
-      <div className=" w-full lg:mt-10 mt-4 px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] ">
-        <h2 className="lg:text-3xl text-2x1 font-semibold">
+      <div className="w-full lg:mt-10 mt-4 px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)]">
+        <h2 className="lg:text-3xl text-2xl font-semibold">
           Skills & Technologies
         </h2>
         <div className="grid grid-cols-3 lg:grid-cols-11 gap-2 lg:gap-4">
           {skills &&
             skills.length > 0 &&
             skills.map((skill, index) => (
-              <div
-                className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between gap-y-4 py-4 px-2"
+              <a
+                href={skill.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between gap-y-4 py-4 px-2 hover:bg-blue-100 transition"
                 key={index}
               >
-                <span className="text-5xl"> {skill.icon}</span>
+                <span className="text-5xl">{skill.icon}</span>
                 <p className="text-sm font-semibold">{skill.name}</p>
-              </div>
+              </a>
             ))}
         </div>
       </div>
