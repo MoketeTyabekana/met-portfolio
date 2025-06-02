@@ -126,6 +126,12 @@ const Hero = () => {
                   allowFullScreen
                 ></iframe>
               </div>
+
+              <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+        <p className="text-white text-xl font-semibold">Video coming soon...</p>
+      </div>
+
+
             </div>
           </div>
         )}
