@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import mokete from "../assets/mokete.jpg";
 import FloatingSymbols from "../data/FloatingSymbols";
@@ -13,6 +13,8 @@ import {
 } from "react-icons/fa";
 
 const Hero = () => {
+  const [showModal, setShowModal] = useState(false);
+
   return (
     <motion.div
       id="home"
@@ -87,21 +89,46 @@ const Hero = () => {
             <FaWhatsapp size={24} />
           </a>
         </motion.div>
-        {/* 
 
-  <motion.div
-    className=" flex items-center gap-x-2 mt-8 lg:w-fit w-full lg:justify-start justify-center lg:hover:text-gray-400 "
-    initial={{ y: 20, opacity: 0 }}
-    animate={{ y: 0, opacity: 1 }}
-    transition={{ duration: 1, delay: 0.5 }}
-  >
-    <FaPlay
-      size={16}
-      className="  w-fit h-fit p-2 border-4 border-solid border-white rounded-full lg:text-start text-center"
-    />
-    <p className="text-sm lg:text-xl ">Video Intro</p>
-  </motion.div>
-*/}
+        {/* Play Button */}
+        <motion.div
+          className="play flex items-center gap-x-2 mt-8 lg:w-fit w-full lg:justify-start justify-center lg:hover:text-gray-400 cursor-pointer"
+          initial={{ y: 20, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1, delay: 0.5 }}
+          onClick={() => setShowModal(true)}
+        >
+          <FaPlay
+            size={16}
+            className="w-fit h-fit p-2 border-4 border-solid border-white rounded-full lg:text-start text-center"
+          />
+          <p className="text-sm lg:text-xl ">Video Intro</p>
+        </motion.div>
+
+        {/* Modal */}
+        {showModal && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
+            <div className="bg-gray-900 rounded-lg overflow-hidden shadow-lg relative w-[90vw] max-w-2xl">
+              <button
+                className="absolute top-2 right-2 text-white text-2xl z-10"
+                onClick={() => setShowModal(false)}
+                aria-label="Close"
+              >
+                &times;
+              </button>
+              <div className="w-full h-0 pb-[56.25%] relative">
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full rounded-lg"
+                  src=""
+                  title="Video Intro"
+                  frameBorder="0"
+                  allow="autoplay; encrypted-media"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        )}
       </motion.div>
 
       <motion.div
