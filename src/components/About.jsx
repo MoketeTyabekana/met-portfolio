@@ -18,17 +18,17 @@ const About = () => {
     {
       name: "HTML",
       icon: <SiHtml5 />,
-      link: "https://www.youtube.com/watch?v=HcOc7P5BMi4",
+      link: "https://www.youtube.com/watch?v=qz0aGYrrlhU",
     },
     {
       name: "CSS",
       icon: <SiCss3 />,
-      link: "https://www.youtube.com/watch?v=ESnrn1kAD4E",
+      link: "https://www.youtube.com/watch?v=OXGznpKZ_sA",
     },
     {
       name: "JavaScript",
       icon: <SiJavascript />,
-      link: "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+      link: "https://www.youtube.com/watch?v=EerdGm-ehJQ",
     },
     {
       name: "React",
@@ -38,22 +38,22 @@ const About = () => {
     {
       name: "Tailwind CSS",
       icon: <SiTailwindcss />,
-      link: "https://www.youtube.com/watch?v=ft30zcMlFao",
+      link: "https://www.youtube.com/watch?v=lCxcTsOHrjo",
     },
     {
       name: "Bootstrap",
       icon: <SiBootstrap />,
-      link: "https://www.youtube.com/watch?v=Jyvffr3aCp0",
+      link: "https://www.youtube.com/watch?v=-qfEOE4vtxE",
     },
     {
       name: "Git",
       icon: <SiGit />,
-      link: "https://www.youtube.com/watch?v=RGOj5yH7evk",
+      link: "https://www.youtube.com/watch?v=zTjRZNkhiEU",
     },
     {
       name: "Figma",
       icon: <SiFigma />,
-      link: "https://www.youtube.com/watch?v=jwCmIBJ8Jtc",
+      link: "https://www.youtube.com/watch?v=JGLfyTDgfDc",
     },
     {
       name: "Photoshop",
@@ -117,35 +117,60 @@ const About = () => {
           <div className="text-sm lg:text-xl">
             <li>
               Front-End Web Development
-              <a href="" className="text-blue-400">
+              <a
+                href="https://www.alxafrica.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400"
+              >
                 {" "}
                 [ALX Africa]
               </a>
             </li>
             <li>
               Web Programming Foundations
-              <a href="" className="text-blue-400">
+              <a
+                href="https://www.linkedin.com/learning/web-programming-foundations"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400"
+              >
                 {" "}
                 [LinkedIn]
               </a>
             </li>
             <li>
               HTML Essential Training
-              <a href="" className="text-blue-400">
+              <a
+                href="https://www.linkedin.com/learning/html-essential-training-4"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400"
+              >
                 {" "}
                 [LinkedIn]
               </a>
             </li>
             <li>
               JavaScript Essentials
-              <a href="" className="text-blue-400">
+              <a
+                href="https://skillsforall.com/course/javascript-essentials-1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400"
+              >
                 {" "}
                 [Cisco]
               </a>
             </li>
             <li>
               Professional Foundations
-              <a href="" className="text-blue-400">
+              <a
+                href="https://www.alxafrica.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400"
+              >
                 {" "}
                 [ALX Africa]
               </a>
