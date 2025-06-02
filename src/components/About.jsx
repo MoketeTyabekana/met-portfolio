@@ -10,13 +10,13 @@ import {
   SiFigma,
   SiAdobephotoshop,
   SiAdobexd,
-  SiAdobeillustrator
+  SiAdobeillustrator,
 } from "react-icons/si";
 
 const About = () => {
   const skills = [
     { name: "HTML", icon: <SiHtml5 /> },
-    { name: "CSS", icon: < SiCss3 /> },
+    { name: "CSS", icon: <SiCss3 /> },
     { name: "JavaScript", icon: <SiJavascript /> },
     { name: "React", icon: <SiReact /> },
     { name: "Tailwind CSS", icon: <SiTailwindcss /> },
@@ -55,9 +55,7 @@ text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] 
       </div>
 
       <div className="  lg:grid lg:grid-cols-2 flex flex-wrap lg:gap-10 gap-4 w-full lg:mt-10 mt-4">
-        <div
-          className="px-4 py-8 w-full  bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] "
-        >
+        <div className="px-4 py-8 w-full  bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] ">
           <h2 className="lg:text-3xl text-2x1  font-semibold">Education</h2>
           <div className="text-sm lg:text-xl">
             <li>
@@ -79,7 +77,7 @@ text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] 
             Certifications / Short Courses
           </h2>
           <div className="text-sm lg:text-xl">
-            <li >
+            <li>
               Front-End Web Development
               <a href="" className="text-blue-400">
                 {" "}
@@ -119,17 +117,21 @@ text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] 
       </div>
 
       <div className=" w-full lg:mt-10 mt-4 px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white  flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] ">
-      <h2 className="lg:text-3xl text-2x1 font-semibold">Skills & Technologies</h2>
+        <h2 className="lg:text-3xl text-2x1 font-semibold">
+          Skills & Technologies
+        </h2>
         <div className="grid grid-cols-3 lg:grid-cols-11 gap-2 lg:gap-4">
-          {skills && skills.length>0 && skills.map((skill, index) => (
-            <div
-              className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between gap-y-4 py-4 px-2"
-              key={index}
-            >
-              <span className="text-5xl"> {skill.icon}</span>
-              <p className="text-sm font-semibold">{skill.name}</p>
-            </div>
-          ))}
+          {skills &&
+            skills.length > 0 &&
+            skills.map((skill, index) => (
+              <div
+                className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between gap-y-4 py-4 px-2"
+                key={index}
+              >
+                <span className="text-5xl"> {skill.icon}</span>
+                <p className="text-sm font-semibold">{skill.name}</p>
+              </div>
+            ))}
         </div>
       </div>
     </section>
