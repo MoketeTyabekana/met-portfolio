@@ -13,7 +13,6 @@
       "link": "https://emtmovies.vercel.app/",
       "decription": " A dynamic movie dashboard web application developed using React, Tailwind CSS, JavaScript, and the OMDb API. This application allows users to search for movies, view detailed information, and explore trending films.",
       "github": "https://github.com/MoketeTyabekana/movie-database.git"
-    
     },
 
     {
@@ -24,6 +23,13 @@
       "github": "https://github.com/MoketeTyabekana/met-portfolio.git"
     },
     {
+      "title": "Weather App",
+      "image": "/assets/weather.png",
+      "link": "https://weatherapp-ochre-three.vercel.app/",
+      "decription": " A web-based weather application built with React, Tailwind CSS, JavaScript, and the OpenWeather API. This app provides real-time weather updates, including temperature, humidity, and forecasts based on user input.",
+      "github": "https://github.com/MoketeTyabekana/react-hooks.git"
+    },
+        {
       "title": "Weather App",
       "image": "/assets/weather.png",
       "link": "https://weatherapp-ochre-three.vercel.app/",

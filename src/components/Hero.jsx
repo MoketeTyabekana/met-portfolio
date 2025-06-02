@@ -110,7 +110,7 @@ const Hero = () => {
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
             <div className="bg-gray-900 rounded-lg overflow-hidden shadow-lg relative w-full lg:w-2/3 h-2/3 max-h-[80vh]">
               <button
-                className="absolute top-2 right-2 text-white text-2xl z-10"
+                className="absolute top-2 right-4 text-white text-2xl z-10"
                 onClick={() => setShowModal(false)}
                 aria-label="Close"
               >
