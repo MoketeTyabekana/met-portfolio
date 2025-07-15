@@ -175,6 +175,19 @@ const About = () => {
                 [ALX Africa]
               </a>
             </li>
+
+            <li>
+             Full-Stack Software Engineering
+              <a
+                href="https://www.alxafrica.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400"
+              >
+                {" "}
+                [FNB App Academy]
+              </a>
+            </li>
           </div>
         </div>
       </div>
