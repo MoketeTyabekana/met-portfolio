@@ -13,13 +13,12 @@ function ScrollToSection() {
   const location = useLocation();
 
   useEffect(() => {
-    // If state exists and has scrollTo, scroll to that section
     if (location.state && location.state.scrollTo) {
       const el = document.getElementById(location.state.scrollTo);
       if (el) {
         setTimeout(() => {
           el.scrollIntoView({ behavior: "smooth" });
-        }, 100); // Delay to ensure DOM is ready
+        }, 100);
       }
     }
   }, [location]);
@@ -32,7 +31,6 @@ const App = () => {
 
   useEffect(() => {
     const handleScroll = (e) => {
-      // Only smooth scroll for hash links, not for /learn
       if (e.currentTarget.pathname === "/" && e.currentTarget.hash) {
         e.preventDefault();
         const targetId = e.currentTarget.hash.substring(1);
@@ -124,15 +122,7 @@ const App = () => {
                 Contact
               </Link>
             </li>
-            <li className="text-left">
-              <Link
-                to="/learn"
-                className="block py-2 px-6 border border-white rounded bg-transparent text-white font-semibold hover:bg-white hover:text-gray-900 transition"
-                onClick={() => setIsOpen(false)}
-              >
-                Learn
-              </Link>
-            </li>
+          
           </ul>
         </nav>
 

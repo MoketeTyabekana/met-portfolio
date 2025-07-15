@@ -117,8 +117,8 @@ const categories = [
 		videos: [
 			{
 				title: "Adobe Photoshop for Beginners",
-				url: "https://www.youtube.com/embed/1l9pZn0rjb4",
-				yt: "https://www.youtube.com/watch?v=1l9pZn0rjb4",
+				url: "https://www.youtube.com/embed/1Qp3rQlrC6Y", 
+				yt: "https://www.youtube.com/watch?v=1Qp3rQlrC6Y",
 			},
 			{
 				title: "Adobe Illustrator Full Course",
