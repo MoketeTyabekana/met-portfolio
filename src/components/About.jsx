@@ -100,11 +100,11 @@ const About = () => {
           <h2 className="lg:text-3xl text-2xl font-semibold">Education</h2>
           <div className="text-sm lg:text-xl">
             <li>
-              Diploma in Information Technology: Central University Of
+              Diploma in Information Technology : Central University Of
               Technology
             </li>
             <li>
-              National Senior Certificate [Grade 12/Matric]: Kagisho Secondary
+              National Senior Certificate-Matric : Kagisho Secondary
               School
             </li>
           </div>
