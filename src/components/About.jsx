@@ -11,6 +11,10 @@ import {
   SiAdobephotoshop,
   SiAdobexd,
   SiAdobeillustrator,
+  SiTypescript,
+  SiGithubcopilot,
+  SiNextdotjs,
+  SiSass
 } from "react-icons/si";
 
 const About = () => {
@@ -36,9 +40,24 @@ const About = () => {
       link: "https://www.youtube.com/watch?v=SqcY0GlETPk",
     },
     {
+      name: "TypeScript",
+      icon: <SiTypescript />,
+      link: "https://youtu.be/d56mG7DezGs",
+    },
+    {
+      name: "Next.js",
+      icon: <SiNextdotjs />,
+      link: "https://www.youtube.com/watch?v=1WmNXEVia8g",
+    },
+    {
       name: "Tailwind CSS",
       icon: <SiTailwindcss />,
       link: "https://www.youtube.com/watch?v=lCxcTsOHrjo",
+    },
+    {
+      name: "Sass",
+      icon: <SiSass />,
+      link: "https://www.youtube.com/watch?v=Zz6eOVaaelI",
     },
     {
       name: "Bootstrap",
@@ -49,6 +68,11 @@ const About = () => {
       name: "Git",
       icon: <SiGit />,
       link: "https://www.youtube.com/watch?v=zTjRZNkhiEU",
+    },
+    {
+      name: "Copilot",
+      icon: <SiGithubcopilot />,
+      link: "https://www.youtube.com/watch?v=JGLfyTDgfDc",
     },
     {
       name: "Figma",
