@@ -62,7 +62,7 @@ const App = () => {
             className="bg-gray-900 text-white px-10 py-2 rounded-md font-semibold lg:hover:bg-gray-950 lg:shadow-[0_0_10px_rgba(100,130,246,0.7)] shadow-[0_0_5px_rgba(100,130,246,0.7)] animate-pulse"
             onClick={() =>
               window.open(
-                "https://drive.google.com/file/d/1cxy5c3JlNk4jH0rYlSCEGky2gEQoDqP-/view",
+                "https://drive.google.com/file/d/1z3rw5C0nE5At0MyUd5ooUCNRzYfKSVjO/view?usp=sharing/view",
                 "_blank"
               )
             }
