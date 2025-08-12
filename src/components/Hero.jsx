@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import mokete from "../assets/mokete.jpg";
-import FloatingSymbols from "../data/FloatingSymbols";
+
 import {
   FaFacebookF,
   FaTwitter,
@@ -23,7 +23,7 @@ const Hero = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
-      <FloatingSymbols />
+      
       <motion.div
         className="flex flex-col lg:justify-start lg:text-start text-center"
         initial={{ x: -50, opacity: 0 }}
