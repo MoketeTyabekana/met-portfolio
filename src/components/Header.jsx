@@ -14,6 +14,7 @@ import Hero from "./Hero";
 import Contact from "./Contact";
 import Learn from "../pages/Learn";
 import AboutMe from "../pages/AboutMe";
+import Home from "../pages/Home";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -88,7 +89,7 @@ const Header = () => {
         </nav>
 
         <Routes>
-          <Route path="/" element={<Hero />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about-me" element={<AboutMe />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />

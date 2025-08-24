@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import projects from "../data/development.json";
 import designs from "../data/designs.json";
 import { FaArrowRight, FaFigma, FaGithub } from "react-icons/fa";
-import Footer from "./Footer";
-
 
 const Projects = () => {
   const [showProjectsModal, setShowProjectsModal] = useState(false);
@@ -230,7 +228,6 @@ lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
           )}
         </div>
       </section>
-      <Footer />
     </>
   );
 };
