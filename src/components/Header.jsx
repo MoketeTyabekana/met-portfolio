@@ -1,11 +1,10 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   Link,
-  useLocation,
 } from "react-router-dom";
 
 import About from "./About";
@@ -14,54 +13,13 @@ import Projects from "./Projects";
 import Hero from "./Hero";
 import Contact from "./Contact";
 import Learn from "../pages/Learn";
-
-function ScrollToSection() {
-  const location = useLocation();
-
-  useEffect(() => {
-    if (location.state && location.state.scrollTo) {
-      const el = document.getElementById(location.state.scrollTo);
-      if (el) {
-        setTimeout(() => {
-          el.scrollIntoView({ behavior: "smooth" });
-        }, 100);
-      }
-    }
-  }, [location]);
-
-  return null;
-}
+import AboutMe from "../pages/AboutMe";
 
 const Header = () => {
-  
-    const [isOpen, setIsOpen] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = (e) => {
-      if (e.currentTarget.pathname === "/" && e.currentTarget.hash) {
-        e.preventDefault();
-        const targetId = e.currentTarget.hash.substring(1);
-        const targetElement = document.getElementById(targetId);
-        if (targetElement) {
-          targetElement.scrollIntoView({ behavior: "smooth" });
-          setIsOpen(false);
-        }
-      }
-    };
-
-    const navLinks = document.querySelectorAll("nav a[href^='#']");
-    navLinks.forEach((link) => link.addEventListener("click", handleScroll));
-
-    return () => {
-      navLinks.forEach((link) =>
-        link.removeEventListener("click", handleScroll)
-      );
-    };
-  }, []);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <Router>
-      <ScrollToSection />
       <div className="font-sans bg-gray-100 text-gray-800">
         {/* Navigation Bar */}
         <nav className=" top-0 left-0 w-full  text-white p-4 shadow-md z-50 flex justify-between items-center lg:px-16 bg-gray-800 bg-clip-padding">
@@ -101,8 +59,7 @@ const Header = () => {
             </li>
             <li className="text-left">
               <Link
-                to="/About"
-                state={{ scrollTo: "about" }}
+                to="/aboutme"
                 className="block py-2 px-4 lg:hover:underline"
                 onClick={() => setIsOpen(false)}
               >
@@ -112,7 +69,6 @@ const Header = () => {
             <li className="text-left">
               <Link
                 to="/projects"
-                state={{ scrollTo: "projects" }}
                 className="block py-2 px-4 lg:hover:underline"
                 onClick={() => setIsOpen(false)}
               >
@@ -122,7 +78,6 @@ const Header = () => {
             <li className="text-left">
               <Link
                 to="/contact"
-                state={{ scrollTo: "contact" }}
                 className="block py-2 px-4 lg:hover:underline"
                 onClick={() => setIsOpen(false)}
               >
@@ -134,7 +89,7 @@ const Header = () => {
 
         <Routes>
           <Route path="/" element={<Hero />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about-me" element={<AboutMe />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/learn" element={<Learn />} />
