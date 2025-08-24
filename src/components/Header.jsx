@@ -59,7 +59,7 @@ const Header = () => {
             </li>
             <li className="text-left">
               <Link
-                to="/aboutme"
+                to="/about-me"
                 className="block py-2 px-4 lg:hover:underline"
                 onClick={() => setIsOpen(false)}
               >
