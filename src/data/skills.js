@@ -1,4 +1,3 @@
-// src/data/skills.tsx
 import {
   SiHtml5,
   SiCss3,
