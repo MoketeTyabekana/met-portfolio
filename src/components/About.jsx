@@ -16,85 +16,32 @@ import {
   SiNextdotjs,
   SiSass
 } from "react-icons/si";
+import { skills as skillsData } from "../data/skills";
+
+const iconMap = {
+  SiHtml5: <SiHtml5 />,
+  SiCss3: <SiCss3 />,
+  SiJavascript: <SiJavascript />,
+  SiReact: <SiReact />,
+  SiTailwindcss: <SiTailwindcss />,
+  SiBootstrap: <SiBootstrap />,
+  SiGit: <SiGit />,
+  SiFigma: <SiFigma />,
+  SiAdobephotoshop: <SiAdobephotoshop />,
+  SiAdobexd: <SiAdobexd />,
+  SiAdobeillustrator: <SiAdobeillustrator />,
+  SiTypescript: <SiTypescript />,
+  SiGithubcopilot: <SiGithubcopilot />,
+  SiNextdotjs: <SiNextdotjs />,
+  SiSass: <SiSass />
+};
 
 const About = () => {
-  const skills = [
-    {
-      name: "HTML",
-      icon: <SiHtml5 />,
-      link: "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-    },
-    {
-      name: "CSS",
-      icon: <SiCss3 />,
-      link: "https://www.youtube.com/watch?v=OXGznpKZ_sA",
-    },
-    {
-      name: "JavaScript",
-      icon: <SiJavascript />,
-      link: "https://www.youtube.com/watch?v=EerdGm-ehJQ",
-    },
-    {
-      name: "React",
-      icon: <SiReact />,
-      link: "https://www.youtube.com/watch?v=SqcY0GlETPk",
-    },
-    {
-      name: "TypeScript",
-      icon: <SiTypescript />,
-      link: "https://youtu.be/d56mG7DezGs",
-    },
-    {
-      name: "Next.js",
-      icon: <SiNextdotjs />,
-      link: "https://www.youtube.com/watch?v=1WmNXEVia8g",
-    },
-    {
-      name: "Tailwind CSS",
-      icon: <SiTailwindcss />,
-      link: "https://www.youtube.com/watch?v=lCxcTsOHrjo",
-    },
-    {
-      name: "Sass",
-      icon: <SiSass />,
-      link: "https://www.youtube.com/watch?v=Zz6eOVaaelI",
-    },
-    {
-      name: "Bootstrap",
-      icon: <SiBootstrap />,
-      link: "https://www.youtube.com/watch?v=-qfEOE4vtxE",
-    },
-    {
-      name: "Git",
-      icon: <SiGit />,
-      link: "https://www.youtube.com/watch?v=zTjRZNkhiEU",
-    },
-    {
-      name: "Copilot",
-      icon: <SiGithubcopilot />,
-      link: "https://www.youtube.com/watch?v=JGLfyTDgfDc",
-    },
-    {
-      name: "Figma",
-      icon: <SiFigma />,
-      link: "https://www.youtube.com/watch?v=JGLfyTDgfDc",
-    },
-    {
-      name: "Photoshop",
-      icon: <SiAdobephotoshop />,
-      link: "https://www.youtube.com/watch?v=OjRqZiAgoHo",
-    },
-    {
-      name: "XD",
-      icon: <SiAdobexd />,
-      link: "https://www.youtube.com/watch?v=68w2VwalD5w",
-    },
-    {
-      name: "Illustrator",
-      icon: <SiAdobeillustrator />,
-      link: "https://www.youtube.com/watch?v=Ib8UBwu3yGA",
-    },
-  ];
+  const skills = skillsData.map((s) => ({
+    name: s.name,
+    icon: iconMap[s.iconName] || <SiReact />,
+    link: s.link
+  }));
 
   return (
     <section
@@ -122,7 +69,7 @@ const About = () => {
       <div className="lg:grid lg:grid-cols-2 flex flex-wrap lg:gap-10 gap-4 w-full lg:mt-10 mt-4">
         <div className="px-4 py-8 w-full bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)]">
           <h2 className="lg:text-3xl text-2xl font-semibold">Education</h2>
-          <div className="text-sm lg:text-xl">
+          <div className="text-sm lg:text-xl px-4">
             <li>
               Diploma in Information Technology : Central University Of
               Technology
@@ -138,7 +85,7 @@ const About = () => {
           <h2 className="lg:text-3xl text-2xl font-semibold">
             Certifications / Short Courses
           </h2>
-          <div className="text-sm lg:text-xl">
+          <div className="text-sm lg:text-xl px-4">
             <li>
               Front-End Web Development
               <a

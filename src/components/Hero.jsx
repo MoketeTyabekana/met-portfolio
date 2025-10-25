@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import mokete from "../assets/mokete.jpg";
+import mokete from "../assets/eli.jpg";
 
 import {
   FaFacebookF,
