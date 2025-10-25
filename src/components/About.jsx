@@ -92,6 +92,18 @@ const About = () => {
                 [ALX Africa]
               </a>
             </li>
+              <li>
+    Front-End Pro Development
+    <a
+      href="https://www.alxafrica.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-400"
+    >
+      {" "}
+      [ALX Africa]
+    </a>
+  </li>
             <li>
               Web Programming Foundations
               <a
@@ -130,19 +142,6 @@ const About = () => {
             </li>
             <li>
               Professional Foundations
-              <a
-                href="https://www.alxafrica.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-400"
-              >
-                {" "}
-                [ALX Africa]
-              </a>
-            </li>
-
-            <li>
-              Front-End Pro Development
               <a
                 href="https://www.alxafrica.com/"
                 target="_blank"
