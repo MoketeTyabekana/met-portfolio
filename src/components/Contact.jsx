@@ -8,6 +8,7 @@ import {
   FaGithub,
   FaWhatsapp,
 } from "react-icons/fa";
+import Footer from "./Footer";
 
 const Contact = () => {
   return (
@@ -63,7 +64,9 @@ const Contact = () => {
           </a>
         </div>
       </div>
+      
     </section>
+    
   );
 };
 
