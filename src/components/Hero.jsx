@@ -18,7 +18,7 @@ const Hero = () => {
   return (
     <motion.div
       id="home"
-      className="lg:h-full h-screen grid lg:grid-cols-2 gap-4 items-center  bg-gray-900 text-white lg:p-16 px-6 pt-20"
+      className=" max-w-8xl lg:h-full h-screen grid lg:grid-cols-2 gap-4 items-center  bg-gray-900 text-white lg:p-16 px-6 pt-20"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}

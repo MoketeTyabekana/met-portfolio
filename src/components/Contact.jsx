@@ -14,7 +14,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="h-auto flex flex-col lg:gap-10 gap-4 bg-gray-950 text-white p-4 lg:p-16"
+      className=" max-w-8xl h-auto flex flex-col lg:gap-10 gap-4 bg-gray-950 text-white p-4 lg:p-16"
     >
       <h2 className=" text-xl lg:text-3xl font-semibold">Contact</h2>
 
