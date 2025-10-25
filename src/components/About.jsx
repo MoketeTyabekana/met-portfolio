@@ -14,26 +14,90 @@ import {
   SiTypescript,
   SiGithubcopilot,
   SiNextdotjs,
-  SiSass
+  SiSass,
 } from "react-icons/si";
 
 const skills = [
-  { name: "HTML", icon: <SiHtml5 />, link: "https://www.youtube.com/watch?v=qz0aGYrrlhU" },
-  { name: "CSS", icon: <SiCss3 />, link: "https://www.youtube.com/watch?v=OXGznpKZ_sA" },
-  { name: "JavaScript", icon: <SiJavascript />, link: "https://www.youtube.com/watch?v=EerdGm-ehJQ" },
-  { name: "React", icon: <SiReact />, link: "https://www.youtube.com/watch?v=SqcY0GlETPk" },
-  { name: "React Native", icon: <SiReact />, link: "https://www.youtube.com/watch?v=0-S5a0eXPoc" },
-  { name: "TypeScript", icon: <SiTypescript />, link: "https://youtu.be/d56mG7DezGs" },
-  { name: "Next.js", icon: <SiNextdotjs />, link: "https://www.youtube.com/watch?v=1WmNXEVia8g" },
-  { name: "Tailwind CSS", icon: <SiTailwindcss />, link: "https://www.youtube.com/watch?v=lCxcTsOHrjo" },
-  { name: "Sass", icon: <SiSass />, link: "https://www.youtube.com/watch?v=Zz6eOVaaelI" },
-  { name: "Bootstrap", icon: <SiBootstrap />, link: "https://www.youtube.com/watch?v=-qfEOE4vtxE" },
-  { name: "Git", icon: <SiGit />, link: "https://www.youtube.com/watch?v=zTjRZNkhiEU" },
-  { name: "Copilot", icon: <SiGithubcopilot />, link: "https://www.youtube.com/watch?v=JGLfyTDgfDc" },
-  { name: "Figma", icon: <SiFigma />, link: "https://www.youtube.com/watch?v=JGLfyTDgfDc" },
-  { name: "Photoshop", icon: <SiAdobephotoshop />, link: "https://www.youtube.com/watch?v=OjRqZiAgoHo" },
-  { name: "XD", icon: <SiAdobexd />, link: "https://www.youtube.com/watch?v=68w2VwalD5w" },
-  { name: "Illustrator", icon: <SiAdobeillustrator />, link: "https://www.youtube.com/watch?v=Ib8UBwu3yGA" }
+  {
+    name: "HTML",
+    icon: <SiHtml5 />,
+    link: "https://www.youtube.com/watch?v=qz0aGYrrlhU",
+  },
+  {
+    name: "CSS",
+    icon: <SiCss3 />,
+    link: "https://www.youtube.com/watch?v=OXGznpKZ_sA",
+  },
+  {
+    name: "JavaScript",
+    icon: <SiJavascript />,
+    link: "https://www.youtube.com/watch?v=EerdGm-ehJQ",
+  },
+  {
+    name: "React",
+    icon: <SiReact />,
+    link: "https://www.youtube.com/watch?v=SqcY0GlETPk",
+  },
+  {
+    name: "React Native",
+    icon: <SiReact />,
+    link: "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+  },
+  {
+    name: "TypeScript",
+    icon: <SiTypescript />,
+    link: "https://youtu.be/d56mG7DezGs",
+  },
+  {
+    name: "Next.js",
+    icon: <SiNextdotjs />,
+    link: "https://www.youtube.com/watch?v=1WmNXEVia8g",
+  },
+  {
+    name: "Tailwind CSS",
+    icon: <SiTailwindcss />,
+    link: "https://www.youtube.com/watch?v=lCxcTsOHrjo",
+  },
+  {
+    name: "Sass",
+    icon: <SiSass />,
+    link: "https://www.youtube.com/watch?v=Zz6eOVaaelI",
+  },
+  {
+    name: "Bootstrap",
+    icon: <SiBootstrap />,
+    link: "https://www.youtube.com/watch?v=-qfEOE4vtxE",
+  },
+  {
+    name: "Git",
+    icon: <SiGit />,
+    link: "https://www.youtube.com/watch?v=zTjRZNkhiEU",
+  },
+  {
+    name: "Copilot",
+    icon: <SiGithubcopilot />,
+    link: "https://www.youtube.com/watch?v=JGLfyTDgfDc",
+  },
+  {
+    name: "Figma",
+    icon: <SiFigma />,
+    link: "https://www.youtube.com/watch?v=JGLfyTDgfDc",
+  },
+  {
+    name: "Photoshop",
+    icon: <SiAdobephotoshop />,
+    link: "https://www.youtube.com/watch?v=OjRqZiAgoHo",
+  },
+  {
+    name: "XD",
+    icon: <SiAdobexd />,
+    link: "https://www.youtube.com/watch?v=68w2VwalD5w",
+  },
+  {
+    name: "Illustrator",
+    icon: <SiAdobeillustrator />,
+    link: "https://www.youtube.com/watch?v=Ib8UBwu3yGA",
+  },
 ];
 
 const About = () => {
@@ -45,18 +109,20 @@ const About = () => {
       <div className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] lg:text-start text-justify">
         <h2 className="lg:text-3xl text-2xl font-semibold">About Me</h2>
         <p className="text-sm lg:text-xl">
-          I’m Mokete Elias Tyabekana, a passionate Frontend Developer & UI/UX
-          Designer with expertise in React, JavaScript, and Tailwind CSS,
-          dedicated to building responsive and user-friendly applications. With
-          a Diploma in Information Technology from Central University of
-          Technology, Free State, I have experience in web development, UI/UX
-          design, and IT support, having worked as an IT Officer at Softstart
-          BTI (Botshabelo Digital Hub), where I mentored interns and assisted
-          startups. I enjoy transforming ideas into digital experiences, whether
-          through intuitive UI designs in Figma or developing scalable web
-          applications. Currently, I’m expanding my knowledge in React Native
-          and working on projects that merge creativity with functionality to
-          solve real-world problems.
+          I’m Mokete Elias Tyabekana, a passionate Full Stack Front-End
+          Developer and UI/UX Designer with expertise in React, Next.js,
+          TypeScript, React Native, JavaScript, and Tailwind CSS. I’m dedicated
+          to building responsive, scalable, and user-friendly applications that
+          deliver great user experiences. With a Diploma in Information
+          Technology from the Central University of Technology, Free State, I’ve
+          gained experience in web development, UI/UX design, and IT support,
+          having worked as an IT Officer at Softstart BTI (Botshabelo Digital
+          Hub), where I mentored interns and assisted startups. I enjoy
+          transforming ideas into digital experiences—whether through intuitive
+          UI designs in Figma or developing cross-platform applications that
+          blend creativity with functionality. Currently, I’m focused on
+          advancing my skills in Next.js and React Native, exploring how modern
+          front-end technologies can solve real-world problems efficiently.
         </p>
       </div>
 
@@ -69,8 +135,7 @@ const About = () => {
               Technology
             </li>
             <li>
-              National Senior Certificate-Matric : Kagisho Secondary
-              School
+              National Senior Certificate-Matric : Kagisho Secondary School
             </li>
           </div>
         </div>
@@ -92,18 +157,18 @@ const About = () => {
                 [ALX Africa]
               </a>
             </li>
-              <li>
-    Front-End Pro Development
-    <a
-      href="https://www.alxafrica.com/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-blue-400"
-    >
-      {" "}
-      [ALX Africa]
-    </a>
-  </li>
+            <li>
+              Front-End Pro Development
+              <a
+                href="https://www.alxafrica.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400"
+              >
+                {" "}
+                [ALX Africa]
+              </a>
+            </li>
             <li>
               Web Programming Foundations
               <a
@@ -154,7 +219,7 @@ const About = () => {
             </li>
 
             <li>
-             Full-Stack Software Engineering
+              Full-Stack Software Engineering
               <a
                 href="https://www.alxafrica.com/"
                 target="_blank"
