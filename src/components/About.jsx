@@ -18,89 +18,45 @@ import {
 } from "react-icons/si";
 
 const skills = [
-  {
-    name: "HTML",
-    icon: <SiHtml5 />,
-    link: "https://www.youtube.com/watch?v=qz0aGYrrlhU",
-  },
-  {
-    name: "CSS",
-    icon: <SiCss3 />,
-    link: "https://www.youtube.com/watch?v=OXGznpKZ_sA",
-  },
-  {
-    name: "JavaScript",
-    icon: <SiJavascript />,
-    link: "https://www.youtube.com/watch?v=EerdGm-ehJQ",
-  },
-  {
-    name: "React",
-    icon: <SiReact />,
-    link: "https://www.youtube.com/watch?v=SqcY0GlETPk",
-  },
-  {
-    name: "React Native",
-    icon: <SiReact />,
-    link: "https://www.youtube.com/watch?v=0-S5a0eXPoc",
-  },
-  {
-    name: "TypeScript",
-    icon: <SiTypescript />,
-    link: "https://youtu.be/d56mG7DezGs",
-  },
-  {
-    name: "Next.js",
-    icon: <SiNextdotjs />,
-    link: "https://www.youtube.com/watch?v=1WmNXEVia8g",
-  },
-  {
-    name: "Tailwind CSS",
-    icon: <SiTailwindcss />,
-    link: "https://www.youtube.com/watch?v=lCxcTsOHrjo",
-  },
-  {
-    name: "Sass",
-    icon: <SiSass />,
-    link: "https://www.youtube.com/watch?v=Zz6eOVaaelI",
-  },
-  {
-    name: "Bootstrap",
-    icon: <SiBootstrap />,
-    link: "https://www.youtube.com/watch?v=-qfEOE4vtxE",
-  },
-  {
-    name: "Git",
-    icon: <SiGit />,
-    link: "https://www.youtube.com/watch?v=zTjRZNkhiEU",
-  },
-  {
-    name: "Copilot",
-    icon: <SiGithubcopilot />,
-    link: "https://www.youtube.com/watch?v=JGLfyTDgfDc",
-  },
-  {
-    name: "Figma",
-    icon: <SiFigma />,
-    link: "https://www.youtube.com/watch?v=JGLfyTDgfDc",
-  },
-  {
-    name: "Photoshop",
-    icon: <SiAdobephotoshop />,
-    link: "https://www.youtube.com/watch?v=OjRqZiAgoHo",
-  },
-  {
-    name: "XD",
-    icon: <SiAdobexd />,
-    link: "https://www.youtube.com/watch?v=68w2VwalD5w",
-  },
-  {
-    name: "Illustrator",
-    icon: <SiAdobeillustrator />,
-    link: "https://www.youtube.com/watch?v=Ib8UBwu3yGA",
-  },
+  { name: "React", icon: <SiReact />, level: 75 },
+  { name: "Next.js", icon: <SiNextdotjs />, level: 70 },
+  { name: "TypeScript", icon: <SiTypescript />, level: 65 },
+  { name: "JavaScript", icon: <SiJavascript />, level: 65 },
+  { name: "HTML", icon: <SiHtml5 />, level: 90 },
+  { name: "CSS", icon: <SiCss3 />, level: 90 },
+  { name: "TailwindCSS", icon: <SiTailwindcss />, level: 90 },
+  { name: "Sass/SCSS", icon: <SiSass />, level: 85 },
+  { name: "Bootstrap", icon: <SiBootstrap />, level: 85 },
+  { name: "Git", icon: <SiGit />, level: 75 },
+  { name: "Figma", icon: <SiFigma />, level: 85 },
+  { name: "Photoshop", icon: <SiAdobephotoshop />, level: 75 },
+  { name: "XD", icon: <SiAdobexd />, level: 80 },
+  { name: "Illustrator", icon: <SiAdobeillustrator />, level: 80 },
+  { name: "React Native", icon: <SiReact />, level: 75 },
 ];
 
 const About = () => {
+
+const SkillBar = ({ skill }) => (
+  <div className="bg-gray-900/60 rounded-lg p-4 flex flex-col justify-center shadow-lg border border-gray-700">
+    <div className="flex justify-between items-center mb-3">
+      <div className="flex items-center gap-3">
+        <span className="text-3xl text-blue-400">{skill.icon}</span>
+        <h4 className="text-lg font-semibold text-gray-100">{skill.name}</h4>
+      </div>
+      <p className="text-gray-300 text-sm font-medium">{skill.level}%</p>
+    </div>
+    <div className="w-full h-2 bg-gray-700 rounded-full overflow-hidden">
+      <div
+        className="h-full bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full"
+        style={{ width: `${skill.level}%` }}
+      ></div>
+    </div>
+  </div>
+);
+      
+
+
   return (
     <section
       id="about"
@@ -234,27 +190,17 @@ const About = () => {
         </div>
       </div>
 
-      <div className="w-full lg:mt-10 mt-4 px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)]">
-        <h2 className="lg:text-3xl text-2xl font-semibold">
-          Skills & Technologies
-        </h2>
-        <div className="grid grid-cols-3 lg:grid-cols-11 gap-2 lg:gap-4">
-          {skills &&
-            skills.length > 0 &&
-            skills.map((skill, index) => (
-              <a
-                href={skill.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between gap-y-4 py-4 px-2 hover:bg-blue-100 transition"
-                key={index}
-              >
-                <span className="text-5xl">{skill.icon}</span>
-                <p className="text-sm font-semibold">{skill.name}</p>
-              </a>
-            ))}
-        </div>
+
+ <div className="w-full mt-10 px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)]">
+      <h2 className="lg:text-3xl text-2xl font-semibold mb-6">
+        Skills & Technologies
+      </h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {skills.map((skill, index) => (
+          <SkillBar key={index} skill={skill} />
+        ))}
       </div>
+    </div>
     </section>
   );
 };
