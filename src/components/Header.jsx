@@ -41,22 +41,38 @@ const Header = () => {
             } md:block`}
           >
             <li>
-              <a href="#home" onClick={closeMenu} className="block py-2 px-4">
+              <a
+                href="#home"
+                onClick={closeMenu}
+                className="relative block py-2 px-4 pb-3 after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-blue-400 after:transition-all after:duration-300 hover:after:w-full"
+              >
                 home
               </a>
             </li>
             <li>
-              <a href="#about" onClick={closeMenu} className="block py-2 px-4">
+              <a
+                href="#about"
+                onClick={closeMenu}
+                className="relative block py-2 px-4 pb-3 after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-blue-400 after:transition-all after:duration-300 hover:after:w-full"
+              >
                 About
               </a>
             </li>
             <li>
-              <a href="#projects" onClick={closeMenu} className="block py-2 px-4">
+              <a
+                href="#projects"
+                onClick={closeMenu}
+                className="relative block py-2 px-4 pb-3 after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-blue-400 after:transition-all after:duration-300 hover:after:w-full"
+              >
                 Projects
               </a>
             </li>
             <li>
-              <a href="#contact" onClick={closeMenu} className="block py-2 px-4">
+              <a
+                href="#contact"
+                onClick={closeMenu}
+                className="relative block py-2 px-4 pb-3 after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-0 after:bg-blue-400 after:transition-all after:duration-300 hover:after:w-full"
+              >
                 Contact
               </a>
             </li>
