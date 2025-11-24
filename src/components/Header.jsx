@@ -1,6 +1,5 @@
 import React, { useState, useRef } from "react";
 import { Menu, X } from "lucide-react";
-import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,18 +8,23 @@ const Header = () => {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <header ref={headerRef} className="fixed top-0 left-0 w-full z-50 bg-gray-800">
+    <header
+      ref={headerRef}
+      className="fixed top-0 left-0 w-full z-50 bg-gray-800 lg:bg-transparent lg:top-6"
+    >
       {/* container matches sections width: max-w-7xl + same side padding */}
-      <div className="max-w-8xl mx-auto w-full px-4 lg:px-16">
-        <nav className="flex items-center justify-between h-16 text-white">
+      <div className="max-w-8xl mx-auto w-full px-4 lg:px-4 lg:max-w-6xl lg:bg-gray-800 lg:rounded-full lg:shadow-xl lg:border lg:border-gray-700/50 lg:backdrop-blur-sm lg:flex lg:items-center">
+        <nav className="flex items-center justify-between h-16 text-white w-full">
           <button
-            className="bg-gray-900 text-white px-4 py-2 rounded-md font-semibold"
+            className="bg-gray-900 text-white px-4 py-2 rounded-full font-semibold"
             onClick={() =>
               window.open(
-                "https://drive.google.com/file/d/1z3rw5C0nE5At0MyUd5ooUCNRzYfKSVjO/view?usp=sharing",
+                "https://drive.google.com/file/d/19aDxvqrcTcQ45ltueVk4bNO16gREfj9H/view?usp=sharing",
                 "_blank"
               )
             }
+
+            
           >
             View Resume
           </button>
@@ -37,9 +41,9 @@ const Header = () => {
             } md:block`}
           >
             <li>
-              <Link to="/" onClick={closeMenu} className="block py-2 px-4">
-                Home
-              </Link>
+              <a href="#home" onClick={closeMenu} className="block py-2 px-4">
+                home
+              </a>
             </li>
             <li>
               <a href="#about" onClick={closeMenu} className="block py-2 px-4">

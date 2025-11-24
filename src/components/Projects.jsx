@@ -4,7 +4,6 @@ import designs from "../data/designs.json";
 import { FaArrowRight, FaFigma, FaGithub } from "react-icons/fa";
 
 const Projects = () => {
-  const [showProjectsModal, setShowProjectsModal] = useState(false);
   const [showDesignsModal, setShowDesignsModal] = useState(false);
 
   return (
@@ -24,7 +23,7 @@ const Projects = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  lg:justify-between gap-2  lg:gap-6">
             {projects.projects &&
               projects.projects.length > 0 &&
-              projects.projects.slice(0, 4).map((project, index) => (
+              projects.projects.map((project, index) => (
                 <div
                   className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between  h-auto  p-2 lg:hover:scale-105 ease-in-out duration-300 "
                   key={index}
@@ -63,72 +62,6 @@ const Projects = () => {
                 </div>
               ))}
           </div>
-
-          {/* Always show View More if more than 4 projects */}
-          {projects.projects && projects.projects.length > 4 && (
-            <button
-              onClick={() => setShowProjectsModal(true)}
-              className="flex flex-row items-center gap-4 self-end text-gray-50 font-bold hover:text-blue-400 mt-4"
-            >
-              <span>View More</span> <FaArrowRight size={16} />
-            </button>
-          )}
-
-          {/* Modal for all coding projects */}
-          {showProjectsModal && (
-            <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black bg-opacity-70">
-              <div className="bg-gray-900 rounded-lg overflow-y-auto shadow-lg relative w-[95vw] max-w-5xl max-h-[90vh] p-6">
-                <button
-                  className="absolute top-2 right-4 text-white text-2xl z-10"
-                  onClick={() => setShowProjectsModal(false)}
-                  aria-label="Close"
-                >
-                  &times;
-                </button>
-                <h2 className="text-2xl font-bold mb-6">All Front-End Projects</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
-                  {projects.projects.map((project, index) => (
-                    <div
-                      className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between  h-auto  p-2 lg:hover:scale-105 ease-in-out duration-300 "
-                      key={index}
-                    >
-                      <img
-                        src={project.image}
-                        alt="project image"
-                        className="rounded"
-                      />
-
-                      <p className="text-xs text-start text-gray-800 mt-2 p-2 bg-gray-100 rounded-sm">
-                        {project.decription}
-                      </p>
-                      <div className="flex flex-row justify-between items-center w-full mt-4">
-                        <a
-                          href={project.link}
-                          target="_blank"
-                          className="flex justify-start gap-1 items-center"
-                        >
-                          <span className="text-sm lg:text-md font-semibold text-gray-800 uppercase">
-                            {project.title}
-                          </span>
-                          <span className="text-gray-800  scale-75">
-                            <FaArrowRight />
-                          </span>
-                        </a>
-
-                        <a
-                          href={project.github}
-                          target="_blank"
-                          className=" text-gray-800 cursor-pointer bg-gray-900 p-2 rounded-full animate-pulse"
-                        >
-                          <FaGithub size={16} className="text-gray-50" />
-                        </a>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          )}
         </div>
 
         {/* UI/UX Design Projects */}
