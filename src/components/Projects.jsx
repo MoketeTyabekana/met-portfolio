@@ -41,6 +41,7 @@ const Projects = () => {
                     <a
                       href={project.link}
                       target="_blank"
+                      rel="noopener noreferrer"
                       className="flex justify-start gap-1 items-center"
                     >
                       <span className="text-sm lg:text-md font-semibold text-gray-800 uppercase">
@@ -54,6 +55,7 @@ const Projects = () => {
                     <a
                       href={project.github}
                       target="_blank"
+                      rel="noopener noreferrer"
                       className=" text-gray-800 cursor-pointer bg-gray-900 p-2 rounded-full animate-pulse"
                     >
                       <FaGithub size={16} className="text-gray-50" />
@@ -97,6 +99,7 @@ lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
                     <a
                       href={design.link}
                       target="_blank"
+                      rel="noopener noreferrer"
                       className=" text-gray-800 cursor-pointer bg-gray-900 p-2 rounded-full animate-pulse"
                     >
                       <FaFigma size={16} className="text-gray-50" />
@@ -148,6 +151,7 @@ lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
                         <a
                           href={design.link}
                           target="_blank"
+                          rel="noopener noreferrer"
                           className=" text-gray-800 cursor-pointer bg-gray-900 p-2 rounded-full animate-pulse"
                         >
                           <FaFigma size={16} className="text-gray-50" />
