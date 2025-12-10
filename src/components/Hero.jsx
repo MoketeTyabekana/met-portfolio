@@ -48,35 +48,40 @@ const Hero = () => {
         >
           <a
             href="https://web.facebook.com/kayno.Eli.mokete/"
-            target="blank"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-white lg:hover:text-gray-400"
           >
             <FaFacebookF size={24} />
           </a>
           <a
             href="https://x.com/mokete__"
-            target="blank"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-white lg:hover:text-gray-400"
           >
             <FaTwitter size={24} />
           </a>
           <a
             href="https://www.instagram.com/eli.mokete/"
-            target="blank"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-white lg:hover:text-gray-400"
           >
             <FaInstagram size={24} />
           </a>
           <a
             href="https://www.linkedin.com/in/mokete-elias-tyabekana-88a22a143/"
-            target="blank"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-white lg:hover:text-gray-400"
           >
             <FaLinkedinIn size={24} />
           </a>
           <a
             href="https://github.com/MoketeTyabekana/"
-            target="blank"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-white lg:hover:text-gray-400"
           >
             <FaGithub size={24} />
@@ -116,6 +121,8 @@ const Hero = () => {
                   title="Video Intro"
                   frameBorder="0"
                   allow="autoplay; encrypted-media"
+                  sandbox="allow-same-origin allow-scripts allow-presentation"
+                  referrerPolicy="no-referrer"
                   allowFullScreen
                 ></iframe>
               </div>

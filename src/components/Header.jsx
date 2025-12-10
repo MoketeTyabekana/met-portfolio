@@ -20,7 +20,8 @@ const Header = () => {
             onClick={() =>
               window.open(
                 "https://drive.google.com/file/d/19aDxvqrcTcQ45ltueVk4bNO16gREfj9H/view?usp=sharing",
-                "_blank"
+                "_blank",
+                "noopener,noreferrer"
               )
             }
 
@@ -34,7 +35,7 @@ const Header = () => {
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
           </div>
-
+ 
           <ul
             className={`md:flex md:items-center md:space-x-6 absolute md:static left-0 right-0 md:right-auto md:left-auto ${
               isOpen ? "top-16 bg-gray-800 border-t border-gray-700 p-4 z-50" : "hidden"
