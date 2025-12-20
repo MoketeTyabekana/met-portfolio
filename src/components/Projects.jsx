@@ -4,7 +4,8 @@ import designs from "../data/designs.json";
 import { FaArrowRight, FaFigma, FaGithub } from "react-icons/fa";
 
 const Projects = () => {
-  const [showDesignsModal, setShowDesignsModal] = useState(false);
+  const [showAllProjects, setShowAllProjects] = useState(false);
+  const [showAllDesigns, setShowAllDesigns] = useState(false);
 
   return (
     <>
@@ -23,7 +24,10 @@ const Projects = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  lg:justify-between gap-2  lg:gap-6">
             {projects.projects &&
               projects.projects.length > 0 &&
-              projects.projects.map((project, index) => (
+              (showAllProjects
+                ? projects.projects
+                : projects.projects.slice(0, 4)
+              ).map((project, index) => (
                 <div
                   className=" text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center justify-between  h-auto  p-2 lg:hover:scale-105 ease-in-out duration-300 "
                   key={index}
@@ -64,6 +68,17 @@ const Projects = () => {
                 </div>
               ))}
           </div>
+
+          {/* View All / Show Less button for Front-End Development - only show if more than 4 projects */}
+          {projects.projects && projects.projects.length > 4 && (
+            <button
+              onClick={() => setShowAllProjects(!showAllProjects)}
+              className="flex flex-row items-center gap-4 self-end text-gray-50 font-bold hover:text-blue-400 mt-4"
+            >
+              <span>{showAllProjects ? "Show Less" : "View All"}</span>{" "}
+              <FaArrowRight size={16} className={showAllProjects ? "rotate-180" : ""} />
+            </button>
+          )}
         </div>
 
         {/* UI/UX Design Projects */}
@@ -76,7 +91,10 @@ lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
           <div className="grid md:grid-cols-2 lg:grid-cols-4 lg:justify-between gap-2 lg:gap-6">
             {designs.designs &&
               designs.designs.length > 0 &&
-              designs.designs.slice(0, 4).map((design, index) => (
+              (showAllDesigns
+                ? designs.designs
+                : designs.designs.slice(0, 4)
+              ).map((design, index) => (
                 <div
                   className="text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center h-auto p-2 lg:hover:scale-105 gap-4 ease-in-out duration-300"
                   key={index}
@@ -109,59 +127,15 @@ lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
               ))}
           </div>
 
-          {/* Always show View More if more than 4 designs */}
+          {/* View All / Show Less button for UI/UX Design - only show if more than 4 designs */}
           {designs.designs && designs.designs.length > 4 && (
             <button
-              onClick={() => setShowDesignsModal(true)}
+              onClick={() => setShowAllDesigns(!showAllDesigns)}
               className="flex flex-row items-center gap-4 self-end text-gray-50 font-bold hover:text-blue-400 mt-4"
             >
-              <span>View More</span> <FaArrowRight size={16} />
+              <span>{showAllDesigns ? "Show Less" : "View All"}</span>{" "}
+              <FaArrowRight size={16} className={showAllDesigns ? "rotate-180" : ""} />
             </button>
-          )}
-
-          {/* Modal for all design projects */}
-          {showDesignsModal && (
-            <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
-              <div className="bg-gray-900 rounded-lg overflow-y-auto shadow-lg relative w-[95vw] max-w-5xl max-h-[90vh] p-6">
-                <button
-                  className="absolute top-2 right-4 text-white text-2xl z-10"
-                  onClick={() => setShowDesignsModal(false)}
-                  aria-label="Close"
-                >
-                  &times;
-                </button>
-                <h2 className="text-2xl font-bold mb-6">All UI/UX Designs</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                  {designs.designs.map((design, index) => (
-                    <div
-                      className="text-center bg-gray-50 rounded-md text-gray-950 flex flex-col items-center h-auto p-2 lg:hover:scale-105 gap-4 ease-in-out duration-300"
-                      key={index}
-                    >
-                      <div className="w-full aspect-[5/3] rounded overflow-hidden">
-                        <img
-                          src={design.image}
-                          alt="project image"
-                          className="w-full h-full object-cover object-top"
-                        />
-                      </div>
-                      <div className="flex flex-row justify-between items-center w-full">
-                        <span className="text-sm lg:text-md font-semibold text-gray-800 uppercase">
-                          {design.title}
-                        </span>
-                        <a
-                          href={design.link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className=" text-gray-800 cursor-pointer bg-gray-900 p-2 rounded-full animate-pulse"
-                        >
-                          <FaFigma size={16} className="text-gray-50" />
-                        </a>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
           )}
         </div>
       </section>

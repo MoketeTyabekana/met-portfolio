@@ -23,6 +23,13 @@
       "github": "https://github.com/MoketeTyabekana/met-portfolio.git"
     },
     {
+      "title": "Xplicit Air",
+      "image": "/assets/xpl.png",
+      "link": "https://moketetyabekana.github.io/xplicit-air/#home",
+      "decription": "A responsive website for XPLICIT AIR - Tailored HVAC Solutions, built using HTML, CSS, and JavaScript. This platform showcases the company's industrial HVAC services, delivering precision, efficiency, and reliability in large-scale air systems across KwaZulu-Natal, South Africa.",
+      "github": "https://github.com/MoketeTyabekana/xplicit-air"
+    },
+    {
       "title": "Weather App",
       "image": "/assets/weather.png",
       "link": "https://weatherapp-ochre-three.vercel.app/",
