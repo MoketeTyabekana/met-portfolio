@@ -30,6 +30,14 @@
       "github": "https://github.com/MoketeTyabekana/xplicit-air"
     },
     {
+      "title": "React Native Movie App",
+      "image": "/assets/movieapp.png",
+      "link": "https://e-li-movies-app-59o4.vercel.app/",
+      "decription": "A React Native movie recommendation mobile application built with TypeScript and the OMDb API. This app features recommended movies, a search bar for discovering movies, detailed movie information pages, and a favorites page where users can save their preferred films.",
+      "github": "https://github.com/MoketeTyabekana/ELi-Movies-App"
+    }
+    ,
+    {
       "title": "Weather App",
       "image": "/assets/weather.png",
       "link": "https://weatherapp-ochre-three.vercel.app/",
