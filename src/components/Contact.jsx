@@ -7,7 +7,9 @@ import {
   FaLinkedinIn,
   FaGithub,
   FaWhatsapp,
+  FaPalette,
 } from "react-icons/fa";
+import { SiTiktok } from "react-icons/si";
 import Footer from "./Footer";
 
 const Contact = () => {
@@ -66,6 +68,22 @@ const Contact = () => {
             className="bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-800/20 text-white lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] p-2"
           >
             <FaInstagram size={24} />
+          </a>
+          <a
+            href="https://www.freepik.com/author/elimokete?_gl=1*1hpwv3b*_gcl_au*MTIxNzYwMTc2Ni4xNzYzMDYyMTM4*_ga*MTExMTU3MTU3Ny4xNzIxNzI0OTY1*_ga_PK4FYLJC1D*czE3NjY0MjQ0MzEkbzg3JGcxJHQxNzY2NDI0NDQyJGo0OSRsMCRoMA.."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-800/20 text-white lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] p-2"
+          >
+            <FaPalette size={24} />
+          </a>
+          <a
+            href="https://www.tiktok.com/@elimokete"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-800/20 text-white lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] p-2"
+          >
+            <SiTiktok size={24} />
           </a>
         </div>
       </div>
