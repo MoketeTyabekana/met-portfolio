@@ -1,0 +1,40 @@
+{
+  "graphics": [
+    {
+      "title": "Football Tournament Flyer",
+      "image": "/graphics/flyer1.jpg"
+    },
+    {
+      "title": "Community Event Flyer",
+      "image": "/graphics/flyer2.jpg"
+    },
+    {
+      "title": "Xplicit Air Logo Design",
+      "image": "/graphics/xplicitair.jpg"
+    },
+    {
+      "title": "Ignite Learning Institute Logo Design",
+      "image": "/graphics/ili.jpg"
+    },
+    {
+      "title": "KPK Logo Design",
+      "image": "/graphics/kpk.jpg"
+    },
+    {
+      "title": "Sandanezwe Sports Logo",
+      "image": "/graphics/sandanezwe-logo.jpg"
+    },
+    {
+      "title": "Gogome Incubation Hub Logo",
+      "image": "/graphics/gogome.png"
+    },
+    {
+      "title": "Mass Art Status Logo Design",
+      "image": "/graphics/mass.jpg"
+    },
+    {
+        "title": "Arron Holdings Logo Design",
+        "image": "/graphics/Arron-Holdings-logo.jpg"
+      }
+  ]
+}
