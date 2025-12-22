@@ -144,7 +144,7 @@ lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
         {/* Graphic Design Projects - gallery */}
         <div className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full">
           <h2 className="lg:text-3xl text-2x1 font-semibold">Graphic Design</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 lg:gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 lg:gap-4">
             {graphics.graphics &&
               graphics.graphics.length > 0 &&
               (showAllGraphics ? graphics.graphics : graphics.graphics.slice(0, 10)).map(
