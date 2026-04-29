@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import projects from "../data/development.json";
 import designs from "../data/designs.json";
-import graphics from "../data/graphics.json";
 import { FaArrowRight, FaFigma, FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   const [showAllProjects, setShowAllProjects] = useState(false);
   const [showAllDesigns, setShowAllDesigns] = useState(false);
-  const [showAllGraphics, setShowAllGraphics] = useState(false);
 
   return (
     <>
@@ -141,43 +139,6 @@ lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full"
           )}
         </div>
 
-        {/* Graphic Design Projects - gallery */}
-        <div className="px-4 py-8 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100/20 text-white flex flex-col gap-4 lg:hover:shadow-[0_0_10px_rgba(59,130,246,0.7)] w-full">
-          <h2 className="lg:text-3xl text-2x1 font-semibold">Graphic Design</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 lg:gap-4">
-            {graphics.graphics &&
-              graphics.graphics.length > 0 &&
-              (showAllGraphics ? graphics.graphics : graphics.graphics.slice(0, 10)).map(
-                (graphic, index) => (
-                <div key={index} className="flex flex-col gap-2">
-                  <div className="bg-gray-50 rounded-md overflow-hidden aspect-square flex items-center justify-center">
-                    <img
-                      src={graphic.image}
-                      alt={graphic.title || "graphic design project"}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  {graphic.title && (
-                    <p className="text-xs font-semibold text-gray-100 line-clamp-2">
-                      {graphic.title}
-                    </p>
-                  )}
-                </div>
-              ))}
-          </div>
-
-          {/* View More / View Less toggle at bottom right if there are additional graphics */}
-          {graphics.graphics && graphics.graphics.length > 10 && (
-            <button
-              type="button"
-              onClick={() => setShowAllGraphics(!showAllGraphics)}
-              className="self-end text-sm lg:text-base font-semibold text-blue-300 hover:text-blue-400 flex items-center gap-2 mt-3"
-            >
-              <span>{showAllGraphics ? "View Less" : "View More"}</span>
-              <FaArrowRight size={14} className={showAllGraphics ? "rotate-180" : ""} />
-            </button>
-          )}
-        </div>
       </section>
     </>
   );

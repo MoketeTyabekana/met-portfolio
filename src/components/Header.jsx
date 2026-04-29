@@ -15,20 +15,32 @@ const Header = () => {
       {/* container matches sections width: max-w-7xl + same side padding */}
       <div className="max-w-8xl mx-auto w-full px-4 lg:px-4 lg:max-w-6xl lg:bg-gray-800 lg:rounded-full lg:shadow-xl lg:border lg:border-gray-700/50 lg:backdrop-blur-sm lg:flex lg:items-center">
         <nav className="flex items-center justify-between h-16 text-white w-full">
-          <button
-            className="bg-gray-900 text-white px-4 py-2 rounded-full font-semibold"
-            onClick={() =>
-              window.open(
-                "https://drive.google.com/file/d/1DUfY5iZhgwJ1O-tfCdCYnb55K1qczp8D/view?usp=sharing",
-                "_blank",
-                "noopener,noreferrer"
-              )
-            }
-
-            
-          >
-            View Resume
-          </button>
+          <div className="flex items-center gap-2">
+            <button
+              className="bg-gray-900 text-white px-4 py-2 rounded-full font-semibold"
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1mOSzSMPSJ_KrxXjp4oZUnak3IBegTa4-/view?usp=sharing",
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
+            >
+              View Resume
+            </button>
+            <button
+              className="bg-gray-900 text-white px-4 py-2 rounded-full font-semibold"
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1ePRk1V54VAmOz6Gexd-NNEWyC60-nTMy/view?usp=sharing",
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
+            >
+              Graphic Portfolio
+            </button>
+          </div>
 
           <div className="md:hidden">
             <button onClick={() => setIsOpen(!isOpen)} className="focus:outline-none">
