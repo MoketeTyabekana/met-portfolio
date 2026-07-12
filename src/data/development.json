@@ -4,7 +4,7 @@
       "title": "ETD Business Website",
       "image": "/assets/etd.png",
       "link": "https://www.emergenttechanddesign.co.za/",
-      "decription": "A business website for Emergent Tech and Design that showcases company services, capabilities, and contact information in a clean, responsive layout.",
+      "decription": "A responsive digital agency website for Emergent Tech Design, built with TypeScript, React, and Tailwind CSS. The platform showcases web development and graphic design services, portfolio work, and provides contact and quote request features for potential clients. ",
       "github": "https://github.com/MoketeTyabekana/emergent-tech-design"
     },
     {
