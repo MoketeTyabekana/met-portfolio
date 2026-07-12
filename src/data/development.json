@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "title": "ETD Business Website",
+      "image": "/assets/etd.png",
+      "link": "https://www.emergenttechanddesign.co.za/",
+      "decription": "A business website for Emergent Tech and Design that showcases company services, capabilities, and contact information in a clean, responsive layout.",
+      "github": "https://github.com/MoketeTyabekana/emergent-tech-design"
+    },
+    {
       "title": "BDH Website",
       "image": "/assets/bdh.png",
       "link": "https://botshabelohub.co.za/",
