@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "title": "ETD Business Website",
+      "image": "/assets/etd.png",
+      "link": "https://www.emergenttechanddesign.co.za/",
+      "decription": "A responsive digital agency website for Emergent Tech Design, built with TypeScript, React, and Tailwind CSS. The platform showcases web development and graphic design services, portfolio work, and provides contact and quote request features for potential clients. ",
+      "github": "https://github.com/MoketeTyabekana/emergent-tech-design"
+    },
+    {
       "title": "BDH Website",
       "image": "/assets/bdh.png",
       "link": "https://botshabelohub.co.za/",

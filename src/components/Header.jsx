@@ -32,7 +32,7 @@ const Header = () => {
               className="bg-gray-900 text-white px-4 py-2 rounded-full font-semibold"
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1ePRk1V54VAmOz6Gexd-NNEWyC60-nTMy/view?usp=sharing",
+                  "https://drive.google.com/file/d/10PglMvoHsBFA5rU89h-BRVjfBgY1esYU/view?usp=sharing",
                   "_blank",
                   "noopener,noreferrer"
                 )
